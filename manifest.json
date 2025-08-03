@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Undead Awakening Resource Pack",
+        "description": "By Caracol Studios",
+        "uuid": "6243ff13-7098-4ee9-b0af-138da683d402",
+        "version": [
+            1,
+            0,
+            0
+        ],
+	"min_engine_version": [
+		1,
+		21,
+		40
+	]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "fea18048-6530-4b9e-b1ab-b7703381df31",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "729aab84-34ef-4ba1-90bd-8954dc2bcbfd",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}
