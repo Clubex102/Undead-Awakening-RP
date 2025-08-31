@@ -9,6 +9,12 @@
       "textures": {
         "default": "textures/entity/zombiecomun.png"
       },
+"animations": {
+  "walk": "animation.zombie.v1.8.walk" ,
+  "idle": "animation.zombie.v1.8.idle",
+  "animation_controllers": "controller.animation.zombie_comun"
+ 
+      },
       "geometry": {
         "default": "geometry.zombie.v1.8"
       },
@@ -17,4 +23,5 @@
       ]
     }
   }
+  
 }
