@@ -11,9 +11,7 @@
       },
 "animations": {
   "walk": "animation.zombie.v1.8.walk" ,
-  "idle": "animation.zombie.v1.8.idle",
-  "animation_controllers": "controller.animation.zombie_comun"
- 
+  "idle": "animation.zombie.v1.8.idle"
       },
       "geometry": {
         "default": "geometry.zombie.v1.8"
