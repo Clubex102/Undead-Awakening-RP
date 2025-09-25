@@ -8,17 +8,21 @@
                         {
                             "walk": "query.is_moving"
                         }
-                    ]
+                    ],
+                    "blend_transition" : 0.1,
+                    "blend_via_shortest_path": true
                 },
                 "walk": {
                     "animations": [
-                        "animation.zombie.v1.8.walk"
+                        "walk"
                     ],
                     "transitions": [
                         {
-                            "default": "query.is_moving"
+                            "default": "!query.is_moving"
                         }
-                    ]
+                    ],
+                    "blend_transition" : 0.1,
+                    "blend_via_shortest_path": true
                 }
             }
         }
