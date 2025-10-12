@@ -1,16 +1,15 @@
 {
     "format_version": "1.10.0",
     "animation_controllers": {
-        "controller.animation.zombie_comun": {
+        "controller.animation.zombie_comun_walk": {
             "states": {
                 "default": {
                     "transitions": [
                         {
-                            "walk": "query.is_moving"
+                            "walk": "query.ground_speed > 0.1"
                         }
                     ],
-                    "blend_transition" : 0.1,
-                    "blend_via_shortest_path": true
+                    "blend_transition" : 0.1
                 },
                 "walk": {
                     "animations": [
@@ -18,37 +17,10 @@
                     ],
                     "transitions": [
                         {
-                            "default": "!query.is_moving"
+                            "default": "query.ground_speed <= 0.1"
                         }
                     ],
-                    "blend_transition" : 0.1,
-                    "blend_via_shortest_path": true
-                }
-            }
-        },
-        "controller.animation.zombie_comun_idle": {
-            
-            "states": {
-                "default": {
-                    "transitions": [
-                        {
-                            "idle": "!query.is_moving"
-                        }
-                    ],
-                    "blend_transition" : 0.1,
-                    "blend_via_shortest_path": true
-                },
-                "idle": {
-                    "animations": [
-                        "idle"
-                    ],
-                    "transitions": [
-                        {
-                            "default": "query.is_moving"
-                        }
-                    ],
-                    "blend_transition" : 0.1,
-                    "blend_via_shortest_path": true
+                    "blend_transition" : 0.1
                 }
             }
         }

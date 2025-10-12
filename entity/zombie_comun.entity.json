@@ -17,11 +17,13 @@
       ],
       "animations": {
         "walk":"animation.zombie_comun.walk",
-        "zombie_comun": "controller.animation.zombie_comun"
+        "idle":"animation.zombie_comun.idle",
+        "zombie_comun": "controller.animation.zombie_comun_walk"
       },
       "scripts": {
         "animate": [
-          "zombie_comun"
+          "zombie_comun",
+          "idle"
         ]
       }
     }
