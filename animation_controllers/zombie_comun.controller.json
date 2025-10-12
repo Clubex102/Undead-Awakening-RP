@@ -25,6 +25,32 @@
                     "blend_via_shortest_path": true
                 }
             }
+        },
+        "controller.animation.zombie_comun_idle": {
+            
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "idle": "!query.is_moving"
+                        }
+                    ],
+                    "blend_transition" : 0.1,
+                    "blend_via_shortest_path": true
+                },
+                "idle": {
+                    "animations": [
+                        "idle"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "query.is_moving"
+                        }
+                    ],
+                    "blend_transition" : 0.1,
+                    "blend_via_shortest_path": true
+                }
+            }
         }
     }
 }
