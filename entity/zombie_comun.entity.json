@@ -1,0 +1,30 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "udaw:zombiecomun",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/zombiecomun.png"
+      },
+      "geometry": {
+        "default": "geometry.zombie_comun"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "animations": {
+        "walk":"animation.zombie_comun.walk",
+        "zombie_comun": "controller.animation.zombie_comun"
+      },
+      "scripts": {
+        "animate": [
+          "zombie_comun"
+        ]
+      }
+    }
+  }
+  
+}
