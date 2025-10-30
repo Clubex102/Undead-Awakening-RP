@@ -3,7 +3,7 @@
 	"animation_controllers": {
 		"controller.animation.zombie_comun": {
 			"states": {
-				"default": {
+				"walk": {
 					"sound_effects": [
 						{"effect": ""}
 					],
@@ -13,10 +13,10 @@
 					"blend_transition": 0.1,
 					"blend_via_shortest_path": true
 				},
-				"walk": {
+				"move": {
 					"animations": ["walk"],
 					"transitions": [
-						{"default": "!query.is_moving"}
+						{"move": "!query.is_moving"}
 					],
 					"blend_transition": 0.1,
 					"blend_via_shortest_path": true
@@ -29,7 +29,7 @@
 					"transitions": [
 						{"idle": "!query.is_moving"}
 					],
-					"blend_transition": 0.1,
+					"blend_transition": 0.3,
 					"blend_via_shortest_path": true
 				},
 				"idle": {
@@ -37,7 +37,7 @@
 					"transitions": [
 						{"default": "query.is_moving"}
 					],
-					"blend_transition": 0.1,
+					"blend_transition": 0.3,
 					"blend_via_shortest_path": true
 				}
 			}
