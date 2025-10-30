@@ -22,11 +22,14 @@
       },
       "scripts": {
         "animate": [
-          "zombie_comun",
-          "idle"
+          {
+            "zombie_comun": "query.is_moving"
+          },
+          {
+            "idle": "!query.is_moving"
+          }
         ]
       }
     }
   }
-  
 }
