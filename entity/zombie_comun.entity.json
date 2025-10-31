@@ -18,7 +18,8 @@
       "animations": {
         "walk":"animation.zombie_comun.walk",
         "idle":"animation.zombie_comun.idle",
-        "zombie_comun": "controller.animation.zombie_comun"
+        "zombie_comun": "controller.animation.zombie_comun",
+        "climb": "animation.zombie_comun.climb"
       },
       "scripts": {
         "animate": [
@@ -27,6 +28,9 @@
           },
           {
             "idle": "!query.is_moving"
+          },
+          {
+            "climb": "query.is_wall_climbing"
           }
         ]
       }

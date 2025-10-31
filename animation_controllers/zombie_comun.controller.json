@@ -41,6 +41,25 @@
 					"blend_via_shortest_path": true
 				}
 			}
+		},
+		"controller.animation.zombie_comun_climb": {
+			"states": {
+				"floor": {
+					"transitions": [
+						{"climb": "query.is_wall_climbing"}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				},
+				"climb": {
+					"animations": ["climb"],
+					"transitions": [
+						{"floor": "!query.is_wall_climbing"}
+					],
+					"blend_transition": 0.3,
+					"blend_via_shortest_path": true
+				}
+			}
 		}
 	}
 }
