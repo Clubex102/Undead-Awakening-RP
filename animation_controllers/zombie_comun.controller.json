@@ -18,7 +18,7 @@
 					"transitions": [
 						{"move": "!query.is_moving"}
 					],
-					"blend_transition": 0.1,
+					"blend_transition": 1.0,
 					"blend_via_shortest_path": true
 				}
 			}
@@ -29,7 +29,7 @@
 					"transitions": [
 						{"idle": "!query.is_moving"}
 					],
-					"blend_transition": 0.3,
+					"blend_transition": 0.9,
 					"blend_via_shortest_path": true
 				},
 				"idle": {
@@ -37,7 +37,7 @@
 					"transitions": [
 						{"default": "query.is_moving"}
 					],
-					"blend_transition": 0.3,
+					"blend_transition": 1.0,
 					"blend_via_shortest_path": true
 				}
 			}
@@ -48,7 +48,7 @@
 					"transitions": [
 						{"climb": "query.is_wall_climbing"}
 					],
-					"blend_transition": 0.3,
+					"blend_transition": 0.9,
 					"blend_via_shortest_path": true
 				},
 				"climb": {
@@ -56,10 +56,32 @@
 					"transitions": [
 						{"floor": "!query.is_wall_climbing"}
 					],
-					"blend_transition": 0.3,
+					"blend_transition": 1.0,
+					"blend_via_shortest_path": true
+				}
+			}
+		},
+		"controller.animation.zombie_comun_atack": {
+			"states": {
+				"noattack": {
+					"transitions": [
+						{"atack": "variable.attack>0"}
+					],
+					"blend_transition": 0.9,
+					"blend_via_shortest_path": true
+				},
+				"atack": {
+					"animations": ["animation.zombie_comun.atack"],
+					"transitions": [
+						{
+							"noattack": "query.all_animations_finished"
+						}
+					],
+					"blend_transition": 1.0,
 					"blend_via_shortest_path": true
 				}
 			}
 		}
+
 	}
 }
