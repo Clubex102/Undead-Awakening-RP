@@ -1,3 +1,0 @@
-# Undead-Awakening-RP
-
-pito
