@@ -1,0 +1,9 @@
+{
+    "resource_pack_name": "Caracoleishon ADDon",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "flintlockgun": {
+            "textures": "textures/items/flintgun_iconitem"
+        }
+    }
+}
