@@ -8,7 +8,7 @@
 						{"effect": ""}
 					],
 					"transitions": [
-						{"walk": "query.ground_speed>=0.4"}
+						{"walk": "query.ground_speed>=0.2"}
 					],
 					"blend_transition": 0.1,
 					"blend_via_shortest_path": true
