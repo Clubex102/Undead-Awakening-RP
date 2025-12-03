@@ -3,9 +3,8 @@
 	"minecraft:client_entity": {
 		"description": {
 			"identifier": "udaw:zombietnt",
-			"min_engine_version": "1.8.0",
 			"materials": {
-				"default": "entity_alphatest"
+				"default": "zombie"
 			},
 			"textures": {
 				"default": "textures/entity/zombietnt"
@@ -13,6 +12,9 @@
 			"geometry": {
 				"default": "geometry.zombie_tnt"
 			},
+			"render_controllers": [
+				"controller.render.default"
+			],
 			"animations": {
 				"walk": "animation.zombietnt.walk",
 				"idle": "animation.zombietnt.idle"
