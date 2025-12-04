@@ -23,12 +23,12 @@
 			},
 			"scripts": {
 				"animate": [
-                    {
-                        "walk": "query.is_moving"
-                    },
-                    {
-                        "idle": "!query.is_moving"
-                    },
+					{
+						"walk": "query.is_moving"
+					},
+					{
+						"idle": "!query.is_moving"
+					},
 					{
 						"explode": "query.is_charged"
 					}
