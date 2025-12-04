@@ -17,8 +17,6 @@
 			],
 			
 			"animations": {
-				"explode": "animation.zombietnt.explode",
-				"explode_controller": "controller.animation.zombie_tnt",
 				"walk": "animation.zombietnt.walk",
 				"idle": "animation.zombietnt.idle",
 				"explode": "animation.zombietnt.explode"
@@ -30,7 +28,10 @@
                     },
                     {
                         "idle": "!query.is_moving"
-                    }
+                    },
+					{
+						"explode": "query.is_charged"
+					}
 				]
 			}
 		}
