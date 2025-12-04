@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.gun": {
+            "states": {
+                "default": {
+                    "animations": ["fpp_hold"],
+                    "transitions": [
+                        {
+                            "use": "q.is_using_item"
+                        }
+                    ]
+                },
+                "use": {
+                    "animations": ["fpp_shot"],
+                    "transitions": [
+						{
+                            "default": "query.all_animations_finished"
+                        }
+					]
+                }
+            }
+        } 
+    }
+}

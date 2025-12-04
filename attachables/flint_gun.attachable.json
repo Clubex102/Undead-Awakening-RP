@@ -14,7 +14,23 @@
             },
             "render_controllers": [
                 "controller.render.default"
-            ]
+            ],
+            "animations": {
+                "tpp": "animation.gun.thirdperson",
+                "fpp_shot": "animation.gun.firstperson_shot",
+                "fpp_hold": "animation.gun.firstperson2",
+                "controller": "controller.animation.gun"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "tpp": "!c.is_first_person"
+                    }, 
+                    {
+                        "controller": "c.is_first_person"
+                    }
+                ]
+            }
         }
     }
 }
