@@ -15,7 +15,10 @@
 			"render_controllers": [
 				"controller.render.default"
 			],
+			
 			"animations": {
+				"explode": "animation.zombietnt.explode",
+				"explode_controller": "controller.animation.zombie_tnt",
 				"walk": "animation.zombietnt.walk",
 				"idle": "animation.zombietnt.idle"
 			},
@@ -26,7 +29,8 @@
                     },
                     {
                         "idle": "!query.is_moving"
-                    }
+                    },
+					"explode_controller"
 				]
 			}
 		}
