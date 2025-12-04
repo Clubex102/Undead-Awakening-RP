@@ -11,7 +11,7 @@
                             "walk": "query.is_moving"
                         },
                         {
-                            "explode": "query.is_charged"
+                            "explode": "query.is_baby"
                         }
                     ]
                 },
@@ -22,7 +22,7 @@
                             "default": "!query.is_moving"
                         },
                         {
-                            "explode": "query.is_charged"
+                            "explode": "query.is_baby"
                         }
                     ]
                 },
@@ -30,7 +30,7 @@
                     "animations": ["explode"],
                     "transitions": [
                         {
-                            "default": "!query.is_charged"
+                            "default": "!query.is_baby"
                         }
                     ]
                 }
