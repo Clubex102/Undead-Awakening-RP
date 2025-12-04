@@ -25,7 +25,10 @@
                 "animate": [
                     {
                         "tpp": "!c.is_first_person"
-                    }, "controller"
+                    }, 
+                    {
+                        "controller": "c.is_first_person"
+                    }
                 ]
             }
         }
