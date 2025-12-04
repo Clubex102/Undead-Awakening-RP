@@ -28,6 +28,9 @@
 					},
 					{
 						"idle": "!query.is_moving"
+					},
+					{
+						"explode": "query.is_charged"
 					}
 				]
 			}
