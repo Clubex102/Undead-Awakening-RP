@@ -11,7 +11,7 @@
                             "walk": "query.is_moving"
                         },
                         {
-                            "explode": "query.is_baby"
+                            "explode": "!query.is_moving&&query.is_baby"
                         }
                     ]
                 },
@@ -22,7 +22,7 @@
                             "default": "!query.is_moving"
                         },
                         {
-                            "explode": "query.is_baby"
+                            "explode": "!query.is_moving&&query.is_baby"
                         }
                     ]
                 },
