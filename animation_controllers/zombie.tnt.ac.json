@@ -1,0 +1,40 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.zombie.tnt": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "animations": ["idle"],
+                    "transitions": [
+                        {
+                            "walk": "query.is_moving"
+                        },
+                        {
+                            "explode": "query.is_charged"
+                        }
+                    ]
+                },
+                "walk": {
+                    "animations": ["walk"],
+                    "transitions": [
+                        {
+                            "default": "!query.is_moving"
+                        },
+                        {
+                            "explode": "query.is_charged"
+                        }
+                    ]
+                },
+                "explode": {
+                    "animations": ["explode"],
+                    "transitions": [
+                        {
+                            "default": "!query.is_charged"
+                        }
+                    ]
+                }
+            }
+        } 
+    }
+}

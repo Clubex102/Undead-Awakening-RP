@@ -19,19 +19,12 @@
 			"animations": {
 				"walk": "animation.zombietnt.walk",
 				"idle": "animation.zombietnt.idle",
-				"explode": "animation.zombietnt.explode"
+				"explode": "animation.zombietnt.explode",
+				"controller": "controller.animation.zombie.tnt"
 			},
 			"scripts": {
 				"animate": [
-					{
-						"walk": "query.is_moving"
-					},
-					{
-						"idle": "!query.is_moving"
-					},
-					{
-						"explode": "query.is_charged"
-					}
+					"controller"
 				]
 			}
 		}
