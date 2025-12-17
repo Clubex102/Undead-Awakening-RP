@@ -1,0 +1,17 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "udaw:zombierange",
+            "min_engine_version": "1.8.0",
+            "materials": { "default": "zombie" },
+            "textures": { "default": "textures/entity/zombierange" },
+            "geometry": { "default": "geometry.zombierange" },
+            "animations": { "walk": "animation.zombierange.walk", "idle": "animation.zombierange.idle" },
+            "scripts": { "animate": [ { "walk": "query.is_moving" }, { "idle": "!query.is_moving" } ] },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}
