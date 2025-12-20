@@ -14,12 +14,22 @@
             "animations":
              { "walk":
               "animation.zombierange.walk", "idle":
-               "animation.zombierange.idle" },
+               "animation.zombierange.idle",
+               "attack" :"controller.animation.zombierange_attack",
+             "animation.zombierange.attack": "animation.zombierange.attack"
+            },
             "scripts": 
             { "animate":
-             [ { "walk": 
-             "query.is_moving" }, 
-             { "idle": "!query.is_moving" }
+             [
+             { 
+                "walk":  "query.is_moving"
+             }, 
+             { 
+                "idle": "!query.is_moving && !query.is_charged"
+             },
+             {
+                "attack": "query.is_charged"
+             }
               ] 
             },
             "render_controllers": [
