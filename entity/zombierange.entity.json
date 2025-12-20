@@ -25,7 +25,7 @@
                 "walk":  "query.is_moving"
              }, 
              { 
-                "idle": "!query.is_moving && !query.is_charged"
+                "idle": "!query.is_moving"
              },
              {
                 "attack": "query.is_charged"

@@ -25,7 +25,7 @@
       "states": {
         "noattack": {
           "transitions": [
-            { "attack": "query.is_charged" }
+            { "attack":  "query.is_charged" }
           ],
           "blend_transition": 0.9,
           "blend_via_shortest_path": true
@@ -39,29 +39,7 @@
           "blend_via_shortest_path": true
         }
       }
-    },
-    "controller.animation.zombierange_idle": {
-      "initial_state": "idle",
-      "states": {
-        "idle": {
-          "transitions": [
-            { "default": "!query.is_moving && !query.is_charged" }
-          ],
-          "blend_transition": 0.4,
-          "blend_via_shortest_path": true
-        },
-        "default": {
-          "animations": [
-            "animation.zombierange.attack"
-          ],
-          "transitions": [
-            { "idle": "query.is_moving || query.is_charged" }
-          ],
-          "blend_transition": 0.9,
-          "blend_via_shortest_path": true
-        
-        }
-      }
+    
     }
   }
 }
