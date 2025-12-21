@@ -3,12 +3,10 @@
     "minecraft:client_entity": {
         "description": {
             "identifier": "udaw:zombierange",
-            "materials":
-            { 
-                "default": "zombie" 
+            "materials": { 
+                "default": "entity_alphatest" 
             },
-            "textures":
-            {
+            "textures": {
                 "default": "textures/entity/zombierange" 
             },
             "geometry": { 
