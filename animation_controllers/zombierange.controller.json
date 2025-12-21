@@ -1,45 +1,46 @@
 {
     "format_version": "1.10.0",
-  "animation_controllers": {
-    "controller.animation.zombierange": {
+    "animation_controllers": {
+    "controller.animation.zombie_range": {
+      "initial_state": "default",
       "states": {
-        "walk": {
-          "animations": ["walk"],
-          "transitions": [
-            { "walk": "query.ground_speed>=0.2" }
-          ],
-          "blend_transition": 0.1,
-          "blend_via_shortest_path": true
-        },
         "default": {
-          "transitions": [
-            { "default": "!query.is_moving " }
+          "animations": [
+            "idle"
           ],
-          "blend_transition": 0.9,
-          "blend_via_shortest_path": true
-        }
-      }
-    },
-
-    "controller.animation.zombierange_attack": {
-      "states": {
-        "noattack": {
           "transitions": [
-            { "attack":  "query.is_charged" }
+            {
+              "walk": "query.modified_move_speed > 0.1"
+            },
+            {
+              "attack": "query.is_charged"
+            }
+          ]
+        },
+        "walk": {
+          "animations": [
+            "walk"
           ],
-          "blend_transition": 0.9,
-          "blend_via_shortest_path": true
+          "transitions": [
+            {
+              "default": "query.modified_move_speed <= 0.1"
+            },
+            {
+              "attack": "query.is_charged"
+            }
+          ]
         },
         "attack": {
-          "animations": ["animation.zombierange.attack"],
-          "transitions": [
-            { "noattack": "!query.is_charged" }
+          "animations": [
+            "attack"
           ],
-          "blend_transition": 8.0,
-          "blend_via_shortest_path": true
+          "transitions": [
+            {
+              "default": "!query.is_charged"
+            }
+          ]
         }
       }
-    
-    }
+    } 
   }
 }
