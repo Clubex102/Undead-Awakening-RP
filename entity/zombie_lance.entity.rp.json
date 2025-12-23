@@ -16,8 +16,8 @@
                 "controller.render.default"
             ],
             "animations": {
-                "idle": "animation.zombie_lance.idle",
-                "walk": "animation.zombie_lance.walk"
+                "idle": "animation.zombielance.idle",
+                "walk": "animation.zombielance.walk"
             },
             "scripts": {
                 "animate": [
