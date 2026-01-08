@@ -1,0 +1,45 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "udaw:zombiewc",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/zombiewoodcutter.png"
+      },
+      "geometry": {
+        "default": "geometry.zombiewoodcutter"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "animations": {
+        "walk": "animation.zombiewoodcutter.walk",
+        "idle": "animation.zombiewoodcutter.idle",
+        "climb": "animation.zombiewoodcutter.climb",
+        "atack": "animation.zombiewoodcutter.atack"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "walk": "query.is_moving && !query.is_delayed_attacking"
+          },
+          {
+            "idle": "!query.is_moving"
+          },
+          {
+            "climb": "query.is_wall_climbing"
+          },
+          {
+            "atack": "variable.attack_time > 0 && !query.all_animations_finished"
+          }
+        ],
+        "pre_animation": [
+          "variable.attack = math.sin(variable.attack_time*30.0);"
+        ]
+      }
+    }
+  }
+}
