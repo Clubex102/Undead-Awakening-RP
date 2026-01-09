@@ -1,0 +1,45 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "udaw:zombieminer",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/zombieminer.png"
+      },
+      "geometry": {
+        "default": "geometry.zombie.zombieminer"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "animations": {
+        "walk":"animation.zombieminer.walk",
+        "idle":"animation.zombieminer.idle",
+        "climb": "animation.zombieminer.climb",
+        "atack": "animation.zombieminer.atack"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "walk": "query.is_moving"
+          },
+          {
+            "idle": "!query.is_moving"
+          },
+          {
+            "climb": "query.is_wall_climbing"
+          },
+          {
+            "atack": "variable.attack_time > 0"
+          }
+        ],
+        "pre_animation": [
+            "variable.attack = math.sin(variable.attack_time*30.0);"
+          ]
+      }
+    }
+  }
+}
