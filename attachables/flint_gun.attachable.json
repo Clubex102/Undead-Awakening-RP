@@ -9,6 +9,7 @@
             "textures": {
                 "default": "textures/items/texture_gun"
             },
+            
             "geometry": {
                 "default": "geometry.flint_gun"
             },
@@ -16,15 +17,15 @@
                 "controller.render.default"
             ],
             "animations": {
-                "tpp": "animation.gun.tpp",
-                "fpp_shot": "animation.gun.fpp_shot",
-                "fpp_hold": "animation.gun.fpp_hold",
+                "tpp": "animation.gun.thirdperson",
+                "fpp_shot": "animation.gun.firstperson_shot",
+                "fpp_hold": "animation.gun.firstperson2",
                 "controller": "controller.animation.gun"
             },
             "scripts": {
                 "animate": [
                     {
-                        "tpp": "!c.is_first_person"
+                        "tpp": "q.is_first_person"
                     }, 
                     {
                         "controller": "c.is_first_person"
