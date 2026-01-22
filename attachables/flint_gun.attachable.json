@@ -25,7 +25,7 @@
             "scripts": {
                 "animate": [
                     {
-                        "tpp": "q.is_first_person"
+                        "tpp": "!c.is_first_person"
                     }, 
                     {
                         "controller": "c.is_first_person"
