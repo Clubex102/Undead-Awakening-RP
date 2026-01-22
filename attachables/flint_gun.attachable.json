@@ -1,8 +1,11 @@
 {
-    "format_version": "1.10.0",
+    "format_version": "1.20.30",
     "minecraft:attachable": {
         "description": {
             "identifier": "udaw:flintlockgun",
+            "item": {
+                "udaw:flintlockgun": "query.is_owner_identifier_any('minecraft:player')"
+            },
             "materials": {
                 "default": "entity_alphablend"
             },

@@ -1,5 +1,5 @@
 {
-	"format_version": "1.12.0",
+	"format_version": "1.16.0",
 	"minecraft:geometry": [
 		{
 			"description": {
@@ -12,8 +12,9 @@
 			},
 			"bones": [
 				{
-					"name": "gun",
+					"name": "root_item",
 					"pivot": [0, 8, 4],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
 					"cubes": [
 						{
 							"origin": [-0.45, 8.45, -4.1],
@@ -107,7 +108,7 @@
 				},
 				{
 					"name": "bone2",
-					"parent": "gun",
+					"parent": "root_item",
 					"pivot": [-4, 5, 11],
 					"cubes": [
 						{
@@ -126,7 +127,7 @@
 				},
 				{
 					"name": "bone",
-					"parent": "gun",
+					"parent": "root_item",
 					"pivot": [-2, 10, 2],
 					"cubes": [
 						{

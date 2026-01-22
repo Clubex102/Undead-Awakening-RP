@@ -4,7 +4,7 @@
 		"animation.gun.thirdperson": {
 			"loop": true,
 			"bones": {
-				"gun": {
+				"root_item": {
 					"rotation": [77.5, 0, 0],
 					"position": [0, -10, -8]
 				},
@@ -16,7 +16,7 @@
 		"animation.gun.firstperson2": {
 			"loop": true,
 			"bones": {
-				"gun": {
+				"root_item": {
 					"rotation": [105.22726, 60.19879, -34.61436],
 					"position": [-12, -5, -8]
 				},
@@ -29,9 +29,9 @@
 		"animation.gun.firstpersonempty": {
 			"loop": true,
 			"bones": {
-				"gun": {
+				"root_item": {
 					"rotation": [105.22726, 60.19879, -34.61436],
-					"position": [-12, -5, -8]
+					"position": [-6.44974, 15.83722, -3.99941]
 				},
 				"bone2": {
 					"position": [19, 0, 0],
@@ -46,7 +46,7 @@
 			"loop": "hold_on_last_frame",
 			"animation_length": 0.375,
 			"bones": {
-				"gun": {
+				"root_item": {
 					"rotation": {
 						"0.0": [105.22726, 60.19879, -34.61436],
 						"0.0417": [123.97726, 60.19879, -34.61436],
@@ -77,7 +77,7 @@
 		"animation.gun.reload": {
 			"animation_length": 5.0833,
 			"bones": {
-				"gun": {
+				"root_item": {
 					"rotation": {
 						"0.0": [105.22726, 60.19879, -34.61436],
 						"0.5833": [-5.58522, -9.41428, -138.93083],
