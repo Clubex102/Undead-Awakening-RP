@@ -24,7 +24,7 @@
       "scripts": {
         "animate": [
           {
-            "walk": "query.is_moving"
+            "walk": "query.is_moving && !variable.attack_time < 20"
           },
           {
             "idle": "!query.is_moving"
@@ -33,7 +33,7 @@
             "climb": "query.is_wall_climbing"
           },
           {
-            "atack": "variable.attack_time > 0"
+            "atack": "variable.attack_time > 0 && query.is_moving"
           }
         ],
         "pre_animation": [
