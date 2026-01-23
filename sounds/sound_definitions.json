@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.20",
+    "sound_definitions": {
+        "mob.zombie.step" : {
+            "__use_legacy_max_distance" : true,
+            "category" : "hostile",
+            "max_distance" : null,
+            "sounds" : [
+                "sounds/mob/zombie/step1",
+                "sounds/mob/zombie/step2",
+                "sounds/mob/zombie/step3",
+                "sounds/mob/zombie/step3",
+                "sounds/mob/zombie/step5"
+            ]
+        },
+        "mob.zombie.death" : {
+            "__use_legacy_max_distance" : true,
+            "category" : "hostile",
+            "max_distance" : null,
+            "sounds" : ["sounds/mob/zombie/hurt1"]
+        },
+        "mob.zombie.hurt" : {
+            "__use_legacy_max_distance" : true,
+            "category" : "hostile",
+            "max_distance" : null,
+            "sounds" : [
+                "sounds/mob/zombie/hurt1",
+                "sounds/mob/zombie/hurt2"
+            ]
+        }
+    }
+}

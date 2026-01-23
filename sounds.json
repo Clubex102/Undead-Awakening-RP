@@ -1,0 +1,120 @@
+{
+    "entity_sounds": {
+        "entities": {
+            "udaw:zombiecomun": {
+                "events": {
+                    "death": {
+                        "sound": "mob.zombie.death",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "hurt": {
+                        "sound": "mob.zombie.hurt",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "step": {
+                        "sound": "mob.zombie.step",
+                        "volume": 0.15,
+                        "pitch": 1.0
+                    }
+                }
+            },
+            "udaw:zombieminer": {
+                "events": {
+                    "death": {
+                        "sound": "mob.zombie.death",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "hurt": {
+                        "sound": "mob.zombie.hurt",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "step": {
+                        "sound": "mob.zombie.step",
+                        "volume": 0.15,
+                        "pitch": 1.0
+                    }
+                }
+            },
+            "udaw:zombietnt": {
+                "events": {
+                    "death": {
+                        "sound": "mob.zombie.death",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "hurt": {
+                        "sound": "mob.zombie.hurt",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "step": {
+                        "sound": "mob.zombie.step",
+                        "volume": 0.15,
+                        "pitch": 1.0
+                    }
+                }
+            },
+            "udaw:zombierange": {
+                "events": {
+                    "death": {
+                        "sound": "mob.zombie.death",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "hurt": {
+                        "sound": "mob.zombie.hurt",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "step": {
+                        "sound": "mob.zombie.step",
+                        "volume": 0.15,
+                        "pitch": 1.0
+                    }
+                }
+            },
+            "udaw:zombiewc": {
+                "events": {
+                    "death": {
+                        "sound": "mob.zombie.death",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "hurt": {
+                        "sound": "mob.zombie.hurt",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "step": {
+                        "sound": "mob.zombie.step",
+                        "volume": 0.15,
+                        "pitch": 1.0
+                    }
+                }
+            },
+            "udaw:zombie_lance": {
+                "events": {
+                    "death": {
+                        "sound": "mob.zombie.death",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "hurt": {
+                        "sound": "mob.zombie.hurt",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "step": {
+                        "sound": "mob.zombie.step",
+                        "volume": 0.15,
+                        "pitch": 1.0
+                    }
+                }
+            }
+        }
+    }
+}
