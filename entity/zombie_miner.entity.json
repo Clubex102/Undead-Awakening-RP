@@ -19,7 +19,8 @@
         "walk":"animation.zombieminer.walk",
         "idle":"animation.zombieminer.idle",
         "climb": "animation.zombieminer.climb",
-        "atack": "animation.zombieminer.atack"
+        "atack": "animation.zombieminer.atack",
+        "attack_controller": "controller.animation.zombie_miner"
       },
       "scripts": {
         "animate": [
@@ -33,8 +34,9 @@
             "climb": "query.is_wall_climbing"
           },
           {
-            "atack": "variable.attack_time > 0 && query.is_moving"
-          }
+            "atack": "variable.attack_time > 0"
+          },
+          "attack_controller"
         ],
         "pre_animation": [
             "variable.attack = math.sin(variable.attack_time*30.0);"

@@ -17,16 +17,24 @@
             ],
             "animations": {
                 "idle": "animation.zombielance.idle",
-                "walk": "animation.zombielance.walk"
+                "walk": "animation.zombielance.walk",
+                "atack": "animation.zombielance.atack",
+                "attack_controller": "controller.animation.zombie_lance"
+
             },
             "scripts": {
+                
                 "animate": [
                     {
                         "walk": "query.is_moving"
                     },
                     {
                         "idle": "!query.is_moving"
-                    }
+                    },
+                    {
+                        "atack": "variable.attack_time > 0"
+                    },
+                    "attack_controller"
                 ]
             }
         }

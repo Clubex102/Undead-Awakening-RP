@@ -19,7 +19,8 @@
         "walk": "animation.zombiewoodcutter.walk",
         "idle": "animation.zombiewoodcutter.idle",
         "climb": "animation.zombiewoodcutter.climb",
-        "atack": "animation.zombiewoodcutter.atack"
+        "attack": "animation.zombiewoodcutter.atack",
+        "attack_controller": "controller.animation.zombie_wc"
       },
       "scripts": {
         "animate": [
@@ -33,8 +34,9 @@
             "climb": "query.is_wall_climbing"
           },
           {
-            "atack": "variable.attack_time > 0 && !query.all_animations_finished"
-          }
+            "attack": "variable.attack_time > 0 && !query.all_animations_finished"
+          },
+          "attack_controller"
         ],
         "pre_animation": [
           "variable.attack = math.sin(variable.attack_time*30.0);"
