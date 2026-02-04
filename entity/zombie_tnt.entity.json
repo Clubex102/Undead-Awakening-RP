@@ -15,7 +15,9 @@
 			"render_controllers": [
 				"controller.render.default"
 			],
-			
+			"spawn_egg": {
+				"texture": "spawn_egg_zombie_tnt"
+			},
 			"animations": {
 				"walk": "animation.zombietnt.walk",
 				"idle": "animation.zombietnt.idle",

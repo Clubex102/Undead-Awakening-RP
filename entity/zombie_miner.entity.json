@@ -15,6 +15,9 @@
       "render_controllers": [
         "controller.render.default"
       ],
+      "spawn_egg": {
+        "texture": "spawn_egg_zombie_miner"
+      },
       "animations": {
         "walk":"animation.zombieminer.walk",
         "idle":"animation.zombieminer.idle",

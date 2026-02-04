@@ -12,6 +12,9 @@
             "geometry": { 
                 "default": "geometry.zombierange" 
             },
+            "spawn_egg": {  
+                "texture": "spawn_egg_zombie_range" 
+            },
             "animations":{  
                 "walk": "animation.zombierange.walk", 
                 "idle":"animation.zombierange.idle",

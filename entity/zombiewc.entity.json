@@ -15,6 +15,9 @@
       "render_controllers": [
         "controller.render.default"
       ],
+      "spawn_egg": {
+        "texture": "spawn_egg_zombie_wc"
+      },
       "animations": {
         "walk": "animation.zombiewoodcutter.walk",
         "idle": "animation.zombiewoodcutter.idle",

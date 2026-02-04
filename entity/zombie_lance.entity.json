@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "udaw:zombie_lance",
+            "identifier": "udaw:zombielance",
             "materials": {
                 "default": "entity_alphatest"
             },
@@ -15,6 +15,9 @@
             "render_controllers": [
                 "controller.render.default"
             ],
+            "spawn_egg": {
+                "texture": "spawn_egg_zombie_lance"
+            },
             "animations": {
                 "idle": "animation.zombielance.idle",
                 "walk": "animation.zombielance.walk",
@@ -35,8 +38,11 @@
                         "atack": "variable.attack_time > 0"
                     },
                     "attack_controller"
-                ]
-            }
+                ],
+                        "pre_animation": [
+            "variable.attack = math.sin(variable.attack_time*30.0);"
+            ]
+                }
         }
     }
 }

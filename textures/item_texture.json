@@ -4,6 +4,24 @@
     "texture_data": {
         "flintlockgun": {
             "textures": "textures/items/flintgun_iconitem"
+        },
+        "spawn_egg_zombie_comun": {
+            "textures": "textures/items/egg_zombiecomun"
+        },
+        "spawn_egg_zombie_lance": {
+            "textures": "textures/items/egg_zombielance"
+        },
+        "spawn_egg_zombie_miner": {
+            "textures": "textures/items/egg_zombieminer"
+        },
+        "spawn_egg_zombie_range": {
+            "textures": "textures/items/egg_zombierange"
+        },
+        "spawn_egg_zombie_tnt": {
+            "textures": "textures/items/egg_zombietnt"
+        },
+        "spawn_egg_zombie_wc": {
+            "textures": "textures/items/egg_zombiewc"
         }
     }
 }
