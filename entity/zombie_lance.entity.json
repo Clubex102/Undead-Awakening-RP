@@ -35,8 +35,11 @@
                         "atack": "variable.attack_time > 0"
                     },
                     "attack_controller"
-                ]
-            }
+                ],
+                        "pre_animation": [
+            "variable.attack = math.sin(variable.attack_time*30.0);"
+            ]
+                }
         }
     }
 }
