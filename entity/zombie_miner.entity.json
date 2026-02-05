@@ -22,7 +22,7 @@
         "walk":"animation.zombieminer.walk",
         "idle":"animation.zombieminer.idle",
         "climb": "animation.zombieminer.climb",
-        "atack": "animation.zombieminer.atack",
+        "attack": "animation.zombieminer.atack",
         "attack_controller": "controller.animation.zombie_miner"
       },
       "scripts": {
@@ -37,7 +37,7 @@
             "climb": "query.is_wall_climbing"
           },
           {
-            "atack": "variable.attack_time > 0"
+            "attack": "variable.attack_time > 0"
           },
           "attack_controller"
         ],
