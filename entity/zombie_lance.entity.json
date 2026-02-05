@@ -2,7 +2,7 @@
     "format_version": "1.10.0",
     "minecraft:client_entity": {
         "description": {
-            "identifier": "udaw:zombielance",
+            "identifier": "udaw:zombie_lance",
             "materials": {
                 "default": "entity_alphatest"
             },
