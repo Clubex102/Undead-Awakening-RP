@@ -10,13 +10,14 @@
                 "default": "geometry.bullet"
             },
             "animations": {
-                "basic": "animation.bullet.llanta"
+                "basic": "animation.bullet.bullet"
             },
             "scripts": {
                 "animate": [
                     "basic"
                 ]
             },
+            
             "render_controllers": [
                 "controller.render.default"
             ]

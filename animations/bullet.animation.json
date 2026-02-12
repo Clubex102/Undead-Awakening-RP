@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.bullet.llanta": {
+		"animation.bullet.bullet": {
 			
 			"loop": true,
 			"particle_effects": {
