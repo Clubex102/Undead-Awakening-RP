@@ -26,7 +26,16 @@
             "sounds" : [
                 "sounds/mob/zombie/hurt1",
                 "sounds/mob/zombie/hurt2"
-            ]
-        }
+              ]
+              
+            },
+        "flintlockshoot" : {
+            "__use_legacy_max_distance" : true,
+            "category" : "player",
+            "max_distance" : 40,
+            "sounds" : ["sounds/items/flintlockshoot"]
+            }
+         }
     }
-}
+
+
