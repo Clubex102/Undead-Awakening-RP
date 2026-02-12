@@ -9,8 +9,11 @@
             "geometry": {
                 "default": "geometry.bullet"
             },
+            "particle_effects": {
+                "basic": "udaw:basic_flame_particle"
+            },
             "animations": {
-                "basic": "animation.bullet.bullet"
+                "basic": "animation.bullet.move"
             },
             "scripts": {
                 "animate": [

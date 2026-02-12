@@ -1,12 +1,13 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.bullet.bullet": {
+		"animation.bullet.move": {
 			
 			"loop": true,
 			"particle_effects": {
 				"0.0": {
 					"effect": "udaw:basic_flame_particle",
+					
 					"locator": "locator"
 				}
 			}
