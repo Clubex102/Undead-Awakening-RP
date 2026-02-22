@@ -7,10 +7,13 @@
 			"particle_effects": {
 				"0.0": {
 					"effect": "udaw:basic_flame_particle",
+					"pre_effect_script": "(1.0)",
+					"bind_to_actor": false,
 					
 					"locator": "locator"
 				}
 			}
+			
 		}
 	}
 }
