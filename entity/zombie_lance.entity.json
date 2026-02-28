@@ -19,14 +19,13 @@
                 "texture": "spawn_egg_zombie_lance"
             },
             "animations": {
-                "idle": "animation.zombielance.idle",
-                "walk": "animation.zombielance.walk",
-                "atack": "animation.zombielance.atack",
+                "idle":              "animation.zombielance.idle",
+                "walk":              "animation.zombielance.walk",
+                "atack":             "animation.zombielance.atack",
+                "attack2":           "animation.zombielance.attack2",
                 "attack_controller": "controller.animation.zombie_lance"
-
             },
             "scripts": {
-                
                 "animate": [
                     {
                         "walk": "query.is_moving"
@@ -39,10 +38,10 @@
                     },
                     "attack_controller"
                 ],
-                        "pre_animation": [
-            "variable.attack = math.sin(variable.attack_time*30.0);"
-            ]
-                }
+                "pre_animation": [
+                    "variable.attack = math.sin(variable.attack_time * 30.0);"
+                ]
+            }
         }
     }
 }
