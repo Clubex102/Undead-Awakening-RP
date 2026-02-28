@@ -1,0 +1,16 @@
+item.udaw.flintlockgun=Flintlock Gun
+item.udaw.flintlockgun.description=This weapon uses iron nuggets as ammunition.
+
+entity.udaw:zombiecomun.name=Zombie Common
+entity.udaw:zombietnt.name=Zombie TNT
+entity.udaw:zombie_lance.name=Zombie with Spear
+entity.udaw:zombieminer.name=Zombie Miner
+entity.udaw:zombierange.name=Zombie with Arrows
+entity.udaw:zombiewc.name=Zombie Woodcutter
+
+item.spawn_egg.entity.udaw:zombiecomun.name=Zombie Common Spawn Egg
+item.spawn_egg.entity.udaw:zombie_lance.name=Zombie with Spear Spawn Egg
+item.spawn_egg.entity.udaw:zombietnt.name=Zombie TNT Spawn Egg
+item.spawn_egg.entity.udaw:zombieminer.name=Zombie Miner Spawn Egg
+item.spawn_egg.entity.udaw:zombierange.name=Zombie with Arrows Spawn Egg
+item.spawn_egg.entity.udaw:zombiewc.name=Zombie Woodcutter Spawn Egg

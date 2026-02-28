@@ -1,0 +1,19 @@
+item.udaw.flintlockgun=Pistola de chispa
+item.udaw.flintlockgun.description=Esta arma utiliza pepitas de hierro como munición.
+
+entity.udaw:zombiecomun.name=Zombie común
+entity.udaw:zombietnt.name=Zombie TNT
+entity.udaw:zombie_lance.name=Zombie con lanza
+entity.udaw:zombieminer.name=Zombie minero
+entity.udaw:zombierange.name=Zombie con arco
+entity.udaw:zombiewc.name=Zombie con Hacha
+
+item.spawn_egg.entity.udaw:zombiecomun.name=Huevo de spawn de Zombie común
+item.spawn_egg.entity.udaw:zombie_lance.name=Huevo de spawn de Zombie con lanza
+item.spawn_egg.entity.udaw:zombietnt.name=Huevo de spawn de Zombie TNT
+item.spawn_egg.entity.udaw:zombieminer.name=Huevo de spawn de Zombie minero
+item.spawn_egg.entity.udaw:zombierange.name=Huevo de spawn de Zombie con flechas
+item.spawn_egg.entity.udaw:zombiewc.name=Huevo de spawn de Zombie con hacha
+
+
+
