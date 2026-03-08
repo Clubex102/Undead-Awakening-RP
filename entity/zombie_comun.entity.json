@@ -1,11 +1,17 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.21.0",
   "minecraft:client_entity": {
     "description": {
       "identifier": "udaw:zombiecomun",
       "materials": {
         "default": "entity_alphatest"
       },
+       "sound_effects": {
+        "ambient": "mob.zombie.ambient",
+        "hurt": "mob.zombie.hurt",
+        "death": "mob.zombie.death",
+        "step": "mob.zombie.step"
+        },
       "textures": {
         "default": "textures/entity/zombiecomun.png"
       },

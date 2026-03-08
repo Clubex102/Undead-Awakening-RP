@@ -17,7 +17,19 @@
             "__use_legacy_max_distance" : true,
             "category" : "hostile",
             "max_distance" : null,
-            "sounds" : ["sounds/mob/zombie/hurt1"]
+            "sounds" : ["sounds/mob/zombie/death",
+        "sounds/mob/zombie/death2",
+        "sounds/mob/zombie/death1"]
+        },
+        "mob.zombie.ambient" : {
+            "__use_legacy_max_distance" : true,
+            "category" : "hostile",
+            "max_distance" : null,
+            "sounds" : [
+                "sounds/mob/zombie/say1",
+                "sounds/mob/zombie/say2",
+                "sounds/mob/zombie/say3"
+              ]
         },
         "mob.zombie.hurt" : {
             "__use_legacy_max_distance" : true,
@@ -31,8 +43,8 @@
             },
         "flintlockshoot" : {
             "__use_legacy_max_distance" : true,
-            "category" : "player",
-            "max_distance" : 40,
+            "category" : "hostile",
+            "max_distance" : 100,
             "sounds" : ["sounds/items/flintlockshoot"]
             }
          }
