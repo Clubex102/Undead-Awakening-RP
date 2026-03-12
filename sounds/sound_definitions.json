@@ -41,6 +41,15 @@
               ]
               
             },
+            "cannonshoot":{
+                "__use_legacy_max_distance": true,
+                "category": "block",
+                "max_distance": 30,
+                "min_distance": 0,
+                "sounds": [
+                    "sounds/items/cannonshoot"
+                ]
+            },
         "flintlockshoot" : {
             "__use_legacy_max_distance" : true,
             "category" : "hostile",

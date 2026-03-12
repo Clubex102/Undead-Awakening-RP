@@ -20,6 +20,9 @@
         "spawn_egg_zombie_tnt": {
             "textures": "textures/items/egg_zombietnt"
         },
+        "textureitemcannon": {
+            "textures": "textures/items/textureitemcannon"
+        },
         "spawn_egg_zombie_wc": {
             "textures": "textures/items/egg_zombiewc"
         }

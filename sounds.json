@@ -17,6 +17,11 @@
                         "sound": "mob.zombie.step",
                         "volume": 0.15,
                         "pitch": 1.0
+                    },
+                    "ambient": {
+                        "sound": "mob.zombie.ambient",
+                        "pitch": 1.0,
+                        "volume": 1.0
                     }
                 }
             },
@@ -36,6 +41,11 @@
                         "sound": "mob.zombie.step",
                         "volume": 0.15,
                         "pitch": 1.0
+                    },
+                    "ambient": {
+                        "sound": "mob.zombie.ambient",
+                        "pitch": 1.0,
+                        "volume": 1.0
                     }
                 }
             },
@@ -55,6 +65,11 @@
                         "sound": "mob.zombie.step",
                         "volume": 0.15,
                         "pitch": 1.0
+                    },
+                    "ambient": {
+                        "sound": "mob.zombie.ambient",
+                        "pitch": 1.0,
+                        "volume": 1.0
                     }
                 }
             },
@@ -74,6 +89,11 @@
                         "sound": "mob.zombie.step",
                         "volume": 0.15,
                         "pitch": 1.0
+                    },
+                    "ambient": {
+                        "sound": "mob.zombie.ambient",
+                        "pitch": 1.0,
+                        "volume": 1.0
                     }
                 }
             },
@@ -93,6 +113,11 @@
                         "sound": "mob.zombie.step",
                         "volume": 0.15,
                         "pitch": 1.0
+                    },
+                    "ambient": {
+                        "sound": "mob.zombie.ambient",
+                        "pitch": 1.0,
+                        "volume": 1.0
                     }
                 }
             },
@@ -112,6 +137,11 @@
                         "sound": "mob.zombie.step",
                         "volume": 0.15,
                         "pitch": 1.0
+                    },
+                    "ambient": {
+                        "sound": "mob.zombie.ambient",
+                        "pitch": 1.0,
+                        "volume": 1.0
                     }
                 }
             }

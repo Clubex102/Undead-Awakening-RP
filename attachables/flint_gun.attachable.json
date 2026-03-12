@@ -23,7 +23,8 @@
                 "tpp": "animation.gun.thirdperson",
                 "fpp_shot": "animation.gun.firstperson_shot",
                 "fpp_hold": "animation.gun.firstperson2",
-                "controller": "controller.animation.gun"
+                "controller": "controller.animation.gun",
+                "hold_tpp": "animation.player.crossbow_hold"
             },
             "scripts": {
                 "animate": [
@@ -32,7 +33,10 @@
                     }, 
                     {
                         "controller": "c.is_first_person"
-                    }
+                    },
+                   {
+                        "hold_tpp": "!c.is_first_person"
+                   }
                 ]
             }
         }
