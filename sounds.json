@@ -25,6 +25,25 @@
                     }
                 }
             },
+            "udaw:pillager":{
+                "events": {
+                    "death":{
+                        "sound": "mob.pillager.death",
+                        "pitch":1,
+                        "volume":1
+                    },
+                    "hurt":{
+                        "sound": "mob.pillager.hurt",
+                        "pitch":1,
+                        "volume":1
+                    },
+                    "ambient":{
+                        "sound": "mob.pillager.idle",
+                        "pitch":1,
+                        "volume":1
+                    }
+                }
+            },
             "udaw:zombieminer": {
                 "events": {
                     "death": {

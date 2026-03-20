@@ -1,0 +1,16 @@
+{
+    "entity_sounds": {
+        "entities": {
+            "udaw:pillager": {
+                "events": {
+                    "shoot":     { "sound": "flintlockshoot",       "volume": 1.0, "pitch": 1.0 },
+                    "idle":      { "sound": "mob.pillager.idle",     "volume": 1.0, "pitch": 1.0 },
+                    "hurt":      { "sound": "mob.pillager.hurt",     "volume": 1.0, "pitch": 1.0 },
+                    "death":     { "sound": "mob.pillager.death",    "volume": 1.0, "pitch": 1.0 },
+                    "step":      { "sound": "mob.pillager.step",     "volume": 0.4, "pitch": 1.0 },
+                    "celebrate": { "sound": "mob.pillager.celebrate","volume": 1.0, "pitch": 1.0 }
+                }
+            }
+        }
+    }
+}

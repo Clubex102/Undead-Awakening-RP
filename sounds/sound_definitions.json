@@ -2,7 +2,6 @@
     "format_version": "1.20.20",
     "sound_definitions": {
         "mob.zombie.step" : {
-            "__use_legacy_max_distance" : true,
             "category" : "hostile",
             "max_distance" : null,
             "sounds" : [
@@ -13,8 +12,31 @@
                 "sounds/mob/zombie/step5"
             ]
         },
+        "mob.pillager.idle":{
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/pillager/idle1",
+                "sounds/mob/pillager/idle2",
+                "sounds/mob/pillager/idle3",
+                "sounds/mob/pillager/idle4"
+            ]
+        },
+        "mob.pillager.hurt":{
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/pillager/hurt1",
+                "sounds/mob/pillager/hurt2",
+                "sounds/mob/pillager/hurt3"
+            ]
+        },
+        "mob.pillager.death":{
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/pillager/death1",
+                "sounds/mob/pillager/death2"
+            ]
+        },
         "mob.zombie.death" : {
-            "__use_legacy_max_distance" : true,
             "category" : "hostile",
             "max_distance" : null,
             "sounds" : ["sounds/mob/zombie/death",
@@ -22,7 +44,6 @@
         "sounds/mob/zombie/death1"]
         },
         "mob.zombie.ambient" : {
-            "__use_legacy_max_distance" : true,
             "category" : "hostile",
             "max_distance" : null,
             "sounds" : [
@@ -32,7 +53,6 @@
               ]
         },
         "mob.zombie.hurt" : {
-            "__use_legacy_max_distance" : true,
             "category" : "hostile",
             "max_distance" : null,
             "sounds" : [
@@ -41,8 +61,8 @@
               ]
               
             },
+            
             "cannonshoot":{
-                "__use_legacy_max_distance": true,
                 "category": "block",
                 "max_distance": 30,
                 "min_distance": 0,
@@ -51,7 +71,7 @@
                 ]
             },
         "flintlockshoot" : {
-            "__use_legacy_max_distance" : true,
+
             "category" : "hostile",
             "max_distance" : 100,
             "sounds" : ["sounds/items/flintlockshoot"]
