@@ -1,7 +1,7 @@
 {
     "format_version": "1.10.0",
     "animation_controllers": {
-        "controller.animation.gun": {
+        "controller.animation.arcabuz": {
             "states": {
                 "default": {
                     "animations": ["fpp_hold"],

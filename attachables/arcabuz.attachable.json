@@ -1,0 +1,44 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "udaw:arcabuz",
+            "item": {
+                "udaw:arcabuz": "query.is_owner_identifier_any('minecraft:player')"
+            },
+            "materials": {
+                "default": "entity_alphablend"
+            },
+            "textures": {
+                "default": "textures/items/texturearquebus"
+            },
+            
+            "geometry": {
+                "default": "geometry.udaw.arquebus"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "animations": {
+                "tpp": "animation.udaw.arquebus.thirdperson",
+                "fpp_shot": "animation.udaw.arquebus.firstpersonshoot",
+                "fpp_hold": "animation.udaw.arquebus.firstperson",
+                "controller": "controller.animation.gun",
+                "hold_tpp": "animation.player.crossbow_hold"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "tpp": "!c.is_first_person"
+                    }, 
+                    {
+                        "controller": "c.is_first_person"
+                    },
+                   {
+                        "hold_tpp": "!c.is_first_person"
+                   }
+                ]
+            }
+        }
+    }
+}

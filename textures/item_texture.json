@@ -8,6 +8,9 @@
         "spawn_egg_zombie_comun": {
             "textures": "textures/items/egg_zombiecomun"
         },
+        "arcabuz":{
+            "textures": "textures/items/arcabuz"
+        },
         "spawn_egg_zombie_lance": {
             "textures": "textures/items/egg_zombielance"
         },

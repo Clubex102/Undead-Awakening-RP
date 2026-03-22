@@ -1,45 +1,42 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.udaw.arquebus.firstperson1": {
+		"animation.udaw.arquebus.thirdperson": {
 			"loop": true,
 			"bones": {
-				"arquebus": {
-					"rotation": [152.68599, -1.27082, 45.26902],
-					"position": [-4, -2, 2]
+				"root_item": {
+					"rotation": [90, -90, 92.5],
+					"position": [0, 19, -3]
+				}
+			}
+		},
+		"animation.udaw.arquebus.firstperson": {
+			"loop": "hold_on_last_frame",
+			"bones": {
+				"root_item": {
+					"rotation": [151.0245, -96.89202, 50.93629],
+					"position": [-8, 23, -6]
 				}
 			}
 		},
 		"animation.udaw.arquebus.firstpersonshoot": {
 			"loop": "hold_on_last_frame",
-			"animation_length": 0.3333,
+			"animation_length": 0.375,
 			"bones": {
-				"arquebus": {
+				"root_item": {
 					"rotation": {
-						"0.0": [152.68599, -1.27082, 45.26902],
-						"0.0833": [154.12488, -9.15476, 29.56751],
-						"0.1667": [154.04825, 8.92071, 65.40073],
-						"0.3333": [152.68599, -1.27082, 45.26902]
+						"0.0": [151.0245, -96.89202, 50.93629],
+						"0.0833": [163.17468, -108.79213, 11.45994],
+						"0.1667": [162.38577, -66.64074, 107.48679],
+						"0.25": [165.70816, -63.66859, 123.29388],
+						"0.375": [151.0245, -96.89202, 50.93629]
 					},
 					"position": {
-						"0.0": [-4, -2, 2],
-						"0.0833": [-4, -2, 2],
-						"0.125": [-4, -2, 2],
-						"0.25": [-6, 0, 2],
-						"0.3333": [-4, -2, 2]
+						"0.0": [-8, 23, -6],
+						"0.1667": [-8, 23, -6],
+						"0.25": [-8, 25, -5],
+						"0.375": [-8, 23, -6]
 					}
-				}
-			}
-		},
-		"animation.udaw.arquebus.thirdperson": {
-			"loop": true,
-			"bones": {
-				"arquebus": {
-					"rotation": [99.96113, -4.92471, 89.12951]
-				},
-				"bone": {
-					"position": [0, 0, -8],
-					"scale": [0, 1, 1]
 				}
 			}
 		}

@@ -61,7 +61,14 @@
               ]
               
             },
-            
+            "arquebusshot":{
+                "category": "hostile",
+                "max_distance": 60,
+                "min_distance": 0,
+                "sounds": [
+                    "sounds/items/arcabusshot"
+                ]
+            },
             "cannonshoot":{
                 "category": "block",
                 "max_distance": 30,
