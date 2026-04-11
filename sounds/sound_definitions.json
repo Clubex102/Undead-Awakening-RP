@@ -21,12 +21,59 @@
                 "sounds/mob/pillager/idle4"
             ]
         },
+        "mob.vindicatorzombie.death":{
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/zombie/death",
+                "sounds/mob/zombie/death1",
+                "sounds/mob/zombie/death2",
+                "sounds/mob/zombie/death3"
+            ]
+        },
+        "mob.vindicatorzombie.hurt":{
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/zombie/hurt3",
+                "sounds/mob/zombie/hurt4"
+            ]
+        },
+        "mob.vindicatorzombie.idle":{
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/zombie/say6",
+                "sounds/mob/zombie/say5"
+            ]
+        },
         "mob.pillager.hurt":{
             "category": "hostile",
             "sounds": [
                 "sounds/mob/pillager/hurt1",
                 "sounds/mob/pillager/hurt2",
                 "sounds/mob/pillager/hurt3"
+            ]
+        },
+        "mob.pillagerzombie.death":{
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/zombie/death",
+                "sounds/mob/zombie/death1",
+                "sounds/mob/zombie/death2",
+                "sounds/mob/zombie/death3"
+            ]
+        },
+        "mob.pillagerzombie.idle":{
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/zombie/say4",
+                "sounds/mob/zombie/say5",
+                "sounds/mob/zombie/say6"
+            ]
+        },
+        "mob.pillagerzombie.hurt":{
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/zombie/hurt3",
+                "sounds/mob/zombie/hurt4"
             ]
         },
         "mob.pillager.death":{

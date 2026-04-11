@@ -1,0 +1,30 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+    "controller.animation.pillagerzombie": {
+      "initial_state": "default",
+      "states": {
+"default": {
+    "animations": [ "idle" ],
+    "transitions": [
+        { "attack": "variable.attack > 0" },
+        { "walk": "query.modified_move_speed > 0.1 && variable.attack <= 0" }
+    ]
+},
+"walk": {
+    "animations": [ "walk" ],
+    "transitions": [
+        { "attack": "variable.attack > 0" },
+        { "default": "query.modified_move_speed <= 0.1 && variable.attack <= 0" }
+    ]
+},
+"attack": {
+    "animations": [ "attack" ],
+    "transitions": [
+        { "default": "variable.attack <= 0" }
+    ]
+}
+      }
+    }
+  }
+}

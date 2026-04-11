@@ -8,6 +8,12 @@
         "spawn_egg_zombie_comun": {
             "textures": "textures/items/egg_zombiecomun"
         },
+        "spawn_egg_zombie_shovel": {
+            "textures": "textures/items/zombieshovelegg"
+        },
+        "spawn_egg_zombie_pillager": {
+            "textures": "textures/items/pillagerzombiespawnegg"
+        },
         "arcabuz":{
             "textures": "textures/items/arcabuz"
         },

@@ -3,6 +3,10 @@ item.udaw.flintlockgun.description=Esta arma utiliza pepitas de hierro como muni
 item.udaw.arcabuz=arcabuz
 
 entity.udaw:zombiecomun.name=Zombie común
+entity.udaw:evocatorzombie.name=Zombie evocador
+entity.udaw:zombie_shovel.name=Zombie con pala
+entity.udaw:vindicatorzombie.name=Zombie vindicador
+entity.udaw:pillagerzombie.name=Zombie saqueador
 entity.udaw:zombietnt.name=Zombie TNT
 entity.udaw:pillager.name=Saqueador con arma de fuego
 entity.udaw:zombie_lance.name=Zombie con lanza
@@ -11,6 +15,10 @@ entity.udaw:zombierange.name=Zombie con arco
 entity.udaw:zombiewc.name=Zombie leñador
 
 item.spawn_egg.entity.udaw:zombiecomun.name=Huevo de spawn de Zombie común
+item.spawn_egg.entity.udaw:evocatorzombie.name=Huevo de spawn de Zombie evocador
+item.spawn_egg.entity.udaw:zombie_shovel.name= Huevo de spawn de Zombie con pala
+item.spawn_egg.entity.udaw:pillagerzombie.name=Huevo de spawn de Zombie saqueador
+item.spawn_egg.entity.udaw:vindicatorzombie.name=Huevo de spawn de Zombie vindicador
 item.spawn_egg.entity.udaw:pillager.name=Huevo de spawn de Saqueador con arma de fuego
 item.spawn_egg.entity.udaw:zombie_lance.name=Huevo de spawn de Zombie con lanza
 item.spawn_egg.entity.udaw:zombietnt.name=Huevo de spawn de Zombie TNT

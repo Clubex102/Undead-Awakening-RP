@@ -10,6 +10,34 @@
                     "step":      { "sound": "mob.pillager.step",     "volume": 0.4, "pitch": 1.0 },
                     "celebrate": { "sound": "mob.pillager.celebrate","volume": 1.0, "pitch": 1.0 }
                 }
+            },
+            "udaw:pillagerzombie": {
+                "events": {
+                    "idle":      { "sound": "mob.pillagerzombie.idle",     "volume": 1.0, "pitch": 1.0 },
+                    "hurt":      { "sound": "mob.pillagerzombie.hurt",     "volume": 1.0, "pitch": 1.0 },
+                    "death":     { "sound": "mob.pillagerzombie.death",    "volume": 1.0, "pitch": 1.0 }
+                }
+            },
+            "udaw:vindicatorzombie": {
+                "events": {
+                    "idle":      { "sound": "mob.vindicatorzombie.idle",     "volume": 1.0, "pitch": 1.0 },
+                    "hurt":      { "sound": "mob.vindicatorzombie.hurt",     "volume": 1.0, "pitch": 1.0 },
+                    "death":     { "sound": "mob.vindicatorzombie.death",    "volume": 1.0, "pitch": 1.0 }
+                }
+             },
+            "udaw:zombie_shovel": {
+                "events": {
+                    "ambient":   { "sound": "mob.zombie.ambient",    "volume": 1.0, "pitch": 1.0 },
+                    "hurt":      { "sound": "mob.zombie.hurt",       "volume": 1.0, "pitch": 1.0 },
+                    "death":     { "sound": "mob.zombie.death",      "volume": 1.0, "pitch": 1.0 }
+                }
+            },
+            "udaw:evocatorzombie": {
+                "events": {
+                    "ambient":   { "sound": "mob.zombie.ambient",    "volume": 1.0, "pitch": 1.0 },
+                    "hurt":      { "sound": "mob.zombie.hurt",       "volume": 1.0, "pitch": 1.0 },
+                    "death":     { "sound": "mob.zombie.death",      "volume": 1.0, "pitch": 1.0 }
+                }
             }
         }
     }

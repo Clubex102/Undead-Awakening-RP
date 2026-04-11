@@ -1,0 +1,43 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "udaw:evocatorzombie",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+       "sound_effects": {
+        "idle": "mob.zombie.ambient",
+        "hurt": "mob.zombie.hurt",
+        "death": "mob.zombie.death"
+        },
+      "textures": {
+        "default": "textures/entity/evokerzombie.png"
+      },
+      "geometry": {
+        "default": "geometry.evokerzombie"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg_zombie_pillager"
+      },
+      "animations": {
+        "walk": "animation.evokerzombie.walk",
+        "idle": "animation.evokerzombie.idle",
+        "evocatorzombie": "controller.animation.evocatorzombie"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "evocatorzombie": "true"
+          }
+        ],
+        "pre_animation": [
+            "variable.attack = math.sin(variable.attack_time*30.0);"
+          ]
+      }
+    }
+  }
+}

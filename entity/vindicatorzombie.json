@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "udaw:vindicatorzombie",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+       "sound_effects": {
+        "idle": "mob.vindicatorzombie.idle",
+        "hurt": "mob.vindicatorzombie.hurt",
+        "death": "mob.vindicatorzombie.death"
+        },
+      "textures": {
+        "default": "textures/entity/vindicatorzombie.png"
+      },
+      "geometry": {
+        "default": "geometry.vindicatorzombie"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg_zombie_pillager"
+      },
+      "animations": {
+        "walk": "animation.vindicatorzombie.walk",
+        "run":"animation.vindicatorzombie.walk",
+        "idle":"animation.vindicatorzombie.idle",
+        "vindicatorzombieac": "controller.animation.vindicatorzombie",
+        "attack": "controller.animation.vindicatorzombie",
+        "animation.vindicatorzombie.attack": "animation.vindicatorzombie.attack"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "walk": "query.is_moving"
+          },
+          {
+            "idle": "!query.is_moving"
+          },
+          {
+            "attack": "variable.attack_time > 0"
+          }
+        ],
+        "pre_animation": [
+            "variable.attack = math.sin(variable.attack_time*30.0);"
+          ]
+      }
+    }
+  }
+}

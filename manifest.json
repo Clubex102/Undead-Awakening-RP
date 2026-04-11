@@ -5,7 +5,7 @@
         "description": "By Caracol Studios",
         "uuid": "6243ff13-7098-4ee9-b0af-138da683d402",
         "version": [
-            1,
+            2,
             0,
             0
         ],
@@ -20,7 +20,7 @@
             "type": "resources",
             "uuid": "fea18048-6530-4b9e-b1ab-b7703381df31",
             "version": [
-                1,
+                2,
                 0,
                 0
             ]
@@ -30,7 +30,7 @@
         {
             "uuid": "729aab84-34ef-4ba1-90bd-8954dc2bcbfd",
             "version": [
-                1,
+                2,
                 0,
                 0
             ]
