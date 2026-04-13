@@ -34,6 +34,9 @@
         },
         "spawn_egg_zombie_wc": {
             "textures": "textures/items/egg_zombiewc"
+        },
+        "oilbottle": {
+            "textures": "textures/items/texture_oilbottle"
         }
     }
 }

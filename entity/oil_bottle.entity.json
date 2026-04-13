@@ -1,0 +1,34 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "udaw:oil_bottle",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/items/texture_oilbottle"
+      },
+      "geometry": {
+        "default": "geometry.oil_bottle"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "animations": {
+        "fpp": "animation.oil_bottle.fpp",
+        "tpp": "animation.oil_bottle.tpp"
+      },
+      "scripts": {
+        "animate": [
+        {
+            "fpp": "!c.is_first_person"
+        },
+        {
+            "tpp": "c.is_first_person"
+        }
+        ]
+      }
+    }
+    }
+}

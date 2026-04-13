@@ -1,0 +1,59 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.oil_bottle",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-0.99, 3.366, -0.594],
+							"size": [1.98, 1.188, 1.188],
+							"uv": {
+								"north": {"uv": [50, 41], "uv_size": [10, 6]},
+								"east": {"uv": [44, 41], "uv_size": [6, 6]},
+								"south": {"uv": [66, 41], "uv_size": [10, 6]},
+								"west": {"uv": [60, 41], "uv_size": [6, 6]},
+								"up": {"uv": [50, 35], "uv_size": [10, 6]},
+								"down": {"uv": [60, 41], "uv_size": [10, -6]}
+							}
+						},
+						{
+							"origin": [-1.188, 4.554, -0.99],
+							"size": [2.376, 0.99, 1.98],
+							"uv": {
+								"north": {"uv": [10, 45], "uv_size": [12, 5]},
+								"east": {"uv": [0, 45], "uv_size": [10, 5]},
+								"south": {"uv": [32, 45], "uv_size": [12, 5]},
+								"west": {"uv": [22, 45], "uv_size": [10, 5]},
+								"up": {"uv": [10, 35], "uv_size": [12, 10]},
+								"down": {"uv": [22, 45], "uv_size": [12, -10]}
+							}
+						},
+						{
+							"origin": [-1.782, 0, -1.782],
+							"size": [3.564, 3.366, 3.564],
+							"uv": {
+								"north": {"uv": [18, 18], "uv_size": [18, 17]},
+								"east": {"uv": [0, 18], "uv_size": [18, 17]},
+								"south": {"uv": [54, 18], "uv_size": [18, 17]},
+								"west": {"uv": [36, 18], "uv_size": [18, 17]},
+								"up": {"uv": [18, 0], "uv_size": [18, 18]},
+								"down": {"uv": [36, 18], "uv_size": [18, -18]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
