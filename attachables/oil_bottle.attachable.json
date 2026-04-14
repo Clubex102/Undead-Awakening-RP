@@ -1,10 +1,10 @@
 {
-  "format_version": "1.21.0",
-  "minecraft:client_entity": {
+  "format_version": "1.20.30",
+  "minecraft:attachable": {
     "description": {
       "identifier": "udaw:oil_bottle",
       "materials": {
-        "default": "entity_alphatest"
+        "default": "entity_alphablend"
       },
       "textures": {
         "default": "textures/items/texture_oilbottle"
