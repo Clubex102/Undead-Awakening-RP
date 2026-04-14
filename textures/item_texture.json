@@ -36,7 +36,7 @@
             "textures": "textures/items/egg_zombiewc"
         },
         "oilbottle": {
-            "textures": "textures/items/texture_oilbottle"
+            "textures": "textures/items/oil_bottle"
         }
     }
 }

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.oil_bottle.fpp": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [0, 0, -120],
+					"position": [-5, 26, 0]
+				}
+			}
+		},
+		"animation.oil_bottle.move": {
+			"loop": true,
+			"animation_length": 0.5,
+			"bones": {
+				"root_item": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.25": [180, 0, -42.5],
+						"0.5": [360, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.oil_bottle.tpp": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [85, 0, 0],
+					"position": [0, 20, -2]
+				}
+			}
+		}
+	}
+}

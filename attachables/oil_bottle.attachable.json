@@ -22,10 +22,10 @@
       "scripts": {
         "animate": [
         {
-            "fpp": "!c.is_first_person"
+            "fpp": "c.is_first_person"
         },
         {
-            "tpp": "c.is_first_person"
+            "tpp": "!c.is_first_person"
         }
         ]
       }
