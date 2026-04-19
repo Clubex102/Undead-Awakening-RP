@@ -1,34 +1,31 @@
 {
-    "format_version": "1.2.0",
-    "minecraft:client_entity": {
-        "description": {
-            "identifier": "udaw:cannon",
-            "materials": {
-                "default": "entity_alphatest"
-            },
-            "textures": {
-                "default": "textures/entity/texturecannon"
-            },
-            "geometry": {
-                "default": "geometry.cannon"
-            },
-            "animations": {
-                "rotate": "animation.cannon.rotation"
-            },
-            "scripts": {
-                "animate": [
-                    {
-                        "rotate": "query.has_rider"
-                    }
-                ]
-            },
-            "render_controllers": [
-                "controller.render.entity"
-            ],
-            "spawn_egg": {
-                "base_color": "#288483",
-                "overlay_color": "#5c3a03"
-            }
-        }
-    }
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "udaw:cannon",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/texturecannon"
+			},
+			"geometry": {
+				"default": "geometry.cannon"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"texture": "spawn_egg_cannon"
+			},
+			"animations": {
+				"rotation": "animation.cannon.rotation"
+			},
+			"scripts": {
+				"animate": [
+					"rotation"
+				]
+			}
+		}
+	}
 }

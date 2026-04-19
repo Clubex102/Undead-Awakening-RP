@@ -11,6 +11,9 @@
         "spawn_egg_zombie_shovel": {
             "textures": "textures/items/zombieshovelegg"
         },
+        "spawn_egg_cannon": {
+            "textures": "textures/items/textureitemcannon"
+        },
         "spawn_egg_zombie_pillager": {
             "textures": "textures/items/pillagerzombiespawnegg"
         },
