@@ -19,11 +19,17 @@
 				"texture": "spawn_egg_cannon"
 			},
 			"animations": {
-				"rotation": "animation.cannon.rotation"
+				"rotation": "animation.cannon.rotation",
+				"move": "animation.cannon.move"
 			},
 			"scripts": {
 				"animate": [
-					"rotation"
+					{
+						"rotation": "query.has_player_rider"
+					},
+					{
+						"move": "query.is_moving"
+					}
 				]
 			}
 		}
