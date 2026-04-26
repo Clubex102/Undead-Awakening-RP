@@ -108,6 +108,20 @@
               ]
               
             },
+            "reload1":{
+                "category": "player",
+                "max_distance": null,
+                "sounds": [
+                    "sounds/items/reload1"
+                ]
+            },
+            "reload2":{
+                "category": "player",
+                "max_distance": null,
+                "sounds": [
+                    "sounds/items/reload2"
+                ]
+            },
             "arquebusshot":{
                 "category": "hostile",
                 "max_distance": 60,
