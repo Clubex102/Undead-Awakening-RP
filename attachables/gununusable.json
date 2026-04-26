@@ -2,28 +2,28 @@
     "format_version": "1.20.30",
     "minecraft:attachable": {
         "description": {
-            "identifier": "udaw:arcabuz",
+            "identifier": "udaw:flintlockgun_unusable",
             "item": {
-                "udaw:arcabuz": "query.is_owner_identifier_any('minecraft:player')"
+                "udaw:flintlockgun": "query.is_owner_identifier_any('minecraft:player')"
             },
             "materials": {
                 "default": "entity_alphablend"
             },
             "textures": {
-                "default": "textures/items/texturearquebus"
+                "default": "textures/items/texture_gun"
             },
             
             "geometry": {
-                "default": "geometry.udaw.arquebus"
+                "default": "geometry.flint_gun"
             },
             "render_controllers": [
                 "controller.render.default"
             ],
             "animations": {
-                "tpp": "animation.udaw.arquebus.thirdperson",
-                "fpp_reload": "animation.udaw.arquebus.firstpersonreload",
-                "fpp_hold": "animation.udaw.arquebus.firstpersonempty",
-                "controller": "controller.animation.arcabuzdefault",
+                "tpp": "animation.gun.thirdperson",
+                "fpp_shot": "animation.gun.firstpersonempty",
+                "fpp_hold": "animation.gun.firstpersonempty",
+                "controller": "controller.animation.gun",
                 "hold_tpp": "animation.player.crossbow_hold"
             },
             "scripts": {

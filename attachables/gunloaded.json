@@ -2,7 +2,7 @@
     "format_version": "1.20.30",
     "minecraft:attachable": {
         "description": {
-            "identifier": "udaw:flintlockgun",
+            "identifier": "udaw:flintlockgun_loaded",
             "item": {
                 "udaw:flintlockgun": "query.is_owner_identifier_any('minecraft:player')"
             },
@@ -23,7 +23,7 @@
                 "tpp": "animation.gun.thirdperson",
                 "fpp_shot": "animation.gun.firstperson_shot",
                 "fpp_hold": "animation.gun.firstperson2",
-                "controller": "controller.animation.gun",
+                "controller": "controller.animation.gunloaded",
                 "hold_tpp": "animation.player.crossbow_hold"
             },
             "scripts": {

@@ -1,7 +1,7 @@
 {
     "format_version": "1.10.0",
     "animation_controllers": {
-        "controller.animation.arcabuzdefault": {
+        "controller.animation.gunloaded": {
             "states": {
                 "default": {
                     "animations": ["fpp_hold"],
@@ -12,7 +12,7 @@
                     ]
                 },
                 "use": {
-                    "animations": ["fpp_reload"],
+                    "animations": ["fpp_shot"],
                     "transitions": [
 						{
                             "default": "!q.is_using_item"

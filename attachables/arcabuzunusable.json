@@ -2,7 +2,7 @@
     "format_version": "1.20.30",
     "minecraft:attachable": {
         "description": {
-            "identifier": "udaw:arcabuz",
+            "identifier": "udaw:arcabuz_unusable",
             "item": {
                 "udaw:arcabuz": "query.is_owner_identifier_any('minecraft:player')"
             },
@@ -21,9 +21,9 @@
             ],
             "animations": {
                 "tpp": "animation.udaw.arquebus.thirdperson",
-                "fpp_reload": "animation.udaw.arquebus.firstpersonreload",
                 "fpp_hold": "animation.udaw.arquebus.firstpersonempty",
-                "controller": "controller.animation.arcabuzdefault",
+                "fpp_reload": "animation.udaw.arquebus.firstpersonempty",
+                "controller": "controller.animation.arcabuzunusable",
                 "hold_tpp": "animation.player.crossbow_hold"
             },
             "scripts": {
