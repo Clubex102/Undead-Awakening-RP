@@ -15,21 +15,30 @@ entity.udaw:zombie_lance.name=Zombie con lanza
 entity.udaw:zombieminer.name=Zombie minero
 entity.udaw:zombierange.name=Zombie con arco
 entity.udaw:zombiewc.name=Zombie leñador
-
+entity.udaw:zombie_igniter.name=Zombie Incendiario
+entity.udaw:plzombie.name=Zombie Caido
+entity.udawoil_bottle_v1.name=Botella de aceite
+entity.udawoil_bottle_v2.name=Botella de aceite
 entity.udaw:cannon.name=Cañon
+entity.udaw:cannonbullet.name=Bala de cañon
 
-item.spawn_egg.entity.udaw:zombiecomun.name=Huevo de spawn de Zombie común
-item.spawn_egg.entity.udaw:evocatorzombie.name=Huevo de spawn de Zombie evocador
-item.spawn_egg.entity.udaw:zombie_shovel.name= Huevo de spawn de Zombie con pala
-item.spawn_egg.entity.udaw:pillagerzombie.name=Huevo de spawn de Zombie saqueador
-item.spawn_egg.entity.udaw:vindicatorzombie.name=Huevo de spawn de Zombie vindicador
-item.spawn_egg.entity.udaw:pillager.name=Huevo de spawn de Saqueador con arma de fuego
-item.spawn_egg.entity.udaw:zombie_lance.name=Huevo de spawn de Zombie con lanza
-item.spawn_egg.entity.udaw:zombietnt.name=Huevo de spawn de Zombie TNT
-item.spawn_egg.entity.udaw:zombieminer.name=Huevo de spawn de Zombie minero
-item.spawn_egg.entity.udaw:zombierange.name=Huevo de spawn de Zombie con flechas
-item.spawn_egg.entity.udaw:zombiewc.name=Huevo de spawn de Zombie leñador
-item.spawn_egg.entity.udaw:zombie_igniter.name=Huevo de spawn de Zombie Ignacio
+
+item.spawn_egg.entity.udaw:zombiecomun.name=Huevo generador de Zombie común
+item.spawn_egg.entity.udaw:evocatorzombie.name=Huevo generador de Zombie evocador
+item.spawn_egg.entity.udaw:zombie_shovel.name= Huevo generador de Zombie con pala
+item.spawn_egg.entity.udaw:pillagerzombie.name=Huevo generador de Zombie saqueador
+item.spawn_egg.entity.udaw:vindicatorzombie.name=Huevo generador de Zombie vindicador
+item.spawn_egg.entity.udaw:pillager.name=Huevo generador de Saqueador con arma de fuego
+item.spawn_egg.entity.udaw:zombie_lance.name=Huevo generador de Zombie con lanza
+item.spawn_egg.entity.udaw:zombietnt.name=Huevo generador de Zombie TNT
+item.spawn_egg.entity.udaw:zombieminer.name=Huevo generador de Zombie minero
+item.spawn_egg.entity.udaw:zombierange.name=Huevo generador de Zombie con flechas
+item.spawn_egg.entity.udaw:zombiewc.name=Huevo generador de Zombie leñador
+item.spawn_egg.entity.udaw:igniter.name=Huevo generador de Zombie Incendiario
+item.spawn_egg.entity.udaw:plzombie.name=Huevo generador de Zombie Caido
+
+
+
 
 
 
