@@ -1,0 +1,45 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "udaw:plzombie",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+       "sound_effects": {
+        "idle": "mob.pillagerzombie.idle",
+        "hurt": "mob.pillagerzombie.hurt",
+        "death": "mob.pillagerzombie.death"
+        },
+      "textures": {
+        "default": "textures/entity/zombieplayer.png"
+      },
+      "geometry": {
+        "default": "geometry.zombiepl"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg_zombie_lance"
+      },
+      "animations": {
+        "walk": "animation.zombieplayer.walk",
+        "idle":"animation.zombieplayer.idle"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "walk": "query.is_moving"
+          },
+          {
+            "idle": "!query.is_moving"
+          }
+        ],
+        "pre_animation": [
+            "variable.attack = math.sin(variable.attack_time*30.0);"
+          ]
+      }
+    }
+  }
+}
