@@ -13,7 +13,7 @@
                 "default": "geometry.zombie_igniter" 
             },
             "spawn_egg": {  
-                "texture": "spawn_egg_zombie_range" 
+                "texture": "spawn_egg_zombie_igniter" 
             },
             "animations":{  
                 "walk": "animation.zombieigniter.walk", 

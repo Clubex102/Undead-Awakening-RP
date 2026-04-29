@@ -2,6 +2,7 @@ item.udaw.flintlockgun=Pistola de chispa
 item.udaw.flintlockgun.description=Esta arma utiliza pepitas de hierro como munición.
 item.udaw.arcabuz=arcabuz
 item.udaw:oil_bottle.name=Botella de aceite
+item.spawn_egg.entity.udaw:cannon.name=Cañon
 
 entity.udaw:zombiecomun.name=Zombie común
 entity.udaw:evocatorzombie.name=Zombie evocador
@@ -15,6 +16,8 @@ entity.udaw:zombieminer.name=Zombie minero
 entity.udaw:zombierange.name=Zombie con arco
 entity.udaw:zombiewc.name=Zombie leñador
 
+entity.udaw:cannon.name=Cañon
+
 item.spawn_egg.entity.udaw:zombiecomun.name=Huevo de spawn de Zombie común
 item.spawn_egg.entity.udaw:evocatorzombie.name=Huevo de spawn de Zombie evocador
 item.spawn_egg.entity.udaw:zombie_shovel.name= Huevo de spawn de Zombie con pala
@@ -26,7 +29,7 @@ item.spawn_egg.entity.udaw:zombietnt.name=Huevo de spawn de Zombie TNT
 item.spawn_egg.entity.udaw:zombieminer.name=Huevo de spawn de Zombie minero
 item.spawn_egg.entity.udaw:zombierange.name=Huevo de spawn de Zombie con flechas
 item.spawn_egg.entity.udaw:zombiewc.name=Huevo de spawn de Zombie leñador
-item.udaw:cannon.name=Cañón
+item.spawn_egg.entity.udaw:zombie_igniter.name=Huevo de spawn de Zombie Ignacio
 
 
 
