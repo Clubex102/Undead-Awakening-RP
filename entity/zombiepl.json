@@ -9,6 +9,7 @@
        "sound_effects": {
         "idle": "mob.pillagerzombie.idle",
         "hurt": "mob.pillagerzombie.hurt",
+        "shieldbonk": "shieldbonk",
         "death": "mob.pillagerzombie.death"
         },
       "textures": {
@@ -17,6 +18,7 @@
       "geometry": {
         "default": "geometry.zombiepl"
       },
+      
       "render_controllers": [
         "controller.render.default"
       ],

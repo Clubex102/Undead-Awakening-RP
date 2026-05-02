@@ -12,6 +12,9 @@
             "textures": {
                 "default": "textures/items/texture_gun"
             },
+            "sound_effects": {
+                "reload": "reload2"
+            },
             
             "geometry": {
                 "default": "geometry.flint_gun"

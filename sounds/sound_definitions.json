@@ -37,6 +37,13 @@
                 "sounds/mob/zombie/hurt4"
             ]
         },
+        "shieldbonk":{
+            "category": "hostile",
+            "max_distance": null,
+            "sounds": [
+                "sounds/mob/shieldbonk"
+            ]
+         },
         "mob.vindicatorzombie.idle":{
             "category": "hostile",
             "sounds": [

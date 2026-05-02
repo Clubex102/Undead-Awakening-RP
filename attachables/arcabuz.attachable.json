@@ -9,6 +9,9 @@
             "materials": {
                 "default": "entity_alphablend"
             },
+            "sound_effects": {
+                "reload": "reload1"
+            },      
             "textures": {
                 "default": "textures/items/texturearquebus"
             },

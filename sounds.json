@@ -154,6 +154,18 @@
                     }
                 }
             },
+            "reload1": {
+                "category": "hostile",
+                "sounds": [
+                    "sounds/attachables/arcabuz/reload1"
+                ]
+            },
+            "reload2": {
+                "category": "hostile",
+                "sounds": [
+                    "sounds/attachables/flintgun/reload1"
+                ]
+            },
             "udaw:zombie_lance": {
                 "events": {
                     "death": {
@@ -202,7 +214,62 @@
                     }
                 }
             },
+            "shieldbonk": {
+                "category": "hostile",
+                "max_distance": null,
+                "sounds": [
+                    "sounds/items/shieldbonk"
+                ]
+             },
             "udaw:evocatorzombie": {
+                "events": {
+                    "death": {
+                        "sound": "mob.zombie.death",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "hurt": {
+                        "sound": "mob.zombie.hurt",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "step": {
+                        "sound": "mob.zombie.step",
+                        "volume": 0.15,
+                        "pitch": 1.0
+                    },
+                    "ambient": {
+                        "sound": "mob.zombie.ambient",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    }
+                }
+            },
+            "udaw:zombie_igniter": {
+                "events": {
+                    "death": {
+                        "sound": "mob.zombie.death",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "hurt": {
+                        "sound": "mob.zombie.hurt",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "step": {
+                        "sound": "mob.zombie.step",
+                        "volume": 0.15,
+                        "pitch": 1.0
+                    },
+                    "ambient": {
+                        "sound": "mob.zombie.ambient",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    }
+                }
+            },
+            "udaw:plzombie": {
                 "events": {
                     "death": {
                         "sound": "mob.zombie.death",
