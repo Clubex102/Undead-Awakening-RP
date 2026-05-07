@@ -16,7 +16,7 @@ entity.udaw:zombieminer.name=Zombie minero
 entity.udaw:zombierange.name=Zombie con arco
 entity.udaw:zombiewc.name=Zombie leñador
 entity.udaw:zombie_igniter.name=Zombie Incendiario
-entity.udaw:plzombie.name=Zombie Caido
+entity.udaw:plzombie.name=Zombie Guerrero
 entity.udawoil_bottle_v1.name=Botella de aceite
 entity.udawoil_bottle_v2.name=Botella de aceite
 entity.udaw:cannon.name=Cañon
@@ -35,7 +35,7 @@ item.spawn_egg.entity.udaw:zombieminer.name=Huevo generador de Zombie minero
 item.spawn_egg.entity.udaw:zombierange.name=Huevo generador de Zombie con flechas
 item.spawn_egg.entity.udaw:zombiewc.name=Huevo generador de Zombie leñador
 item.spawn_egg.entity.udaw:igniter.name=Huevo generador de Zombie Incendiario
-item.spawn_egg.entity.udaw:plzombie.name=Huevo generador de Zombie Caido
+item.spawn_egg.entity.udaw:plzombie.name=Huevo generador de Zombie Guerrero
 
 
 
