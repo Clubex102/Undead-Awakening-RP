@@ -4,38 +4,40 @@ item.udaw.arcabuz=arcabuz
 item.udaw:oil_bottle.name=Botella de aceite
 item.spawn_egg.entity.udaw:cannon.name=Cañon
 
-entity.udaw:zombiecomun.name=Zombie común
-entity.udaw:evocatorzombie.name=Zombie evocador
-entity.udaw:zombie_shovel.name=Zombie con pala
-entity.udaw:vindicatorzombie.name=Zombie vindicador
-entity.udaw:pillagerzombie.name=Zombie saqueador
+entity.udaw:zombiecomun.name=Zombie Común
+entity.udaw:evocatorzombie.name=Zombie Evocador
+entity.udaw:zombie_shovel.name=Zombie con Pala
+entity.udaw:vindicatorzombie.name=Zombie Vindicador
+entity.udaw:pillagerzombie.name=Zombie Saqueador
 entity.udaw:zombietnt.name=Zombie TNT
-entity.udaw:pillager.name=Saqueador con arma de fuego
-entity.udaw:zombie_lance.name=Zombie con lanza
-entity.udaw:zombieminer.name=Zombie minero
-entity.udaw:zombierange.name=Zombie con arco
-entity.udaw:zombiewc.name=Zombie leñador
+entity.udaw:pillager.name=Saqueador con Arma de Fuego
+entity.udaw:zombie_lance.name=Zombie con Lanza
+entity.udaw:zombieminer.name=Zombie Minero
+entity.udaw:zombierange.name=Zombie con flechas
+entity.udaw:zombiewc.name=Zombie Leñador
 entity.udaw:zombie_igniter.name=Zombie Incendiario
 entity.udaw:plzombie.name=Zombie Guerrero
+entity.udaw:spawner.name=Generador
+entity.udaw:spawner2.name=Generador2
 entity.udawoil_bottle_v1.name=Botella de aceite
 entity.udawoil_bottle_v2.name=Botella de aceite
 entity.udaw:cannon.name=Cañon
 entity.udaw:cannonbullet.name=Bala de cañon
 
 
-item.spawn_egg.entity.udaw:zombiecomun.name=Huevo generador de Zombie común
-item.spawn_egg.entity.udaw:evocatorzombie.name=Huevo generador de Zombie evocador
-item.spawn_egg.entity.udaw:zombie_shovel.name= Huevo generador de Zombie con pala
-item.spawn_egg.entity.udaw:pillagerzombie.name=Huevo generador de Zombie saqueador
-item.spawn_egg.entity.udaw:vindicatorzombie.name=Huevo generador de Zombie vindicador
-item.spawn_egg.entity.udaw:pillager.name=Huevo generador de Saqueador con arma de fuego
-item.spawn_egg.entity.udaw:zombie_lance.name=Huevo generador de Zombie con lanza
-item.spawn_egg.entity.udaw:zombietnt.name=Huevo generador de Zombie TNT
-item.spawn_egg.entity.udaw:zombieminer.name=Huevo generador de Zombie minero
-item.spawn_egg.entity.udaw:zombierange.name=Huevo generador de Zombie con flechas
-item.spawn_egg.entity.udaw:zombiewc.name=Huevo generador de Zombie leñador
-item.spawn_egg.entity.udaw:igniter.name=Huevo generador de Zombie Incendiario
-item.spawn_egg.entity.udaw:plzombie.name=Huevo generador de Zombie Guerrero
+item.spawn_egg.entity.udaw:zombiecomun.name=Huevo Generador de Zombie Común
+item.spawn_egg.entity.udaw:evocatorzombie.name=Huevo Generador de Zombie Evocador
+item.spawn_egg.entity.udaw:zombie_shovel.name=Huevo Generador de Zombie con Pala
+item.spawn_egg.entity.udaw:pillagerzombie.name=Huevo Generador de Zombie Saqueador
+item.spawn_egg.entity.udaw:vindicatorzombie.name=Huevo Generador de Zombie Vindicador
+item.spawn_egg.entity.udaw:pillager.name=Huevo Generador de Saqueador con Arma de Fuego
+item.spawn_egg.entity.udaw:zombie_lance.name=Huevo Generador de Zombie con Lanza
+item.spawn_egg.entity.udaw:zombietnt.name=Huevo Generador de Zombie TNT
+item.spawn_egg.entity.udaw:zombieminer.name=Huevo Generador de Zombie Minero
+item.spawn_egg.entity.udaw:zombierange.name=Huevo Generador de Zombie con Flechas
+item.spawn_egg.entity.udaw:zombiewc.name=Huevo Generador de Zombie Leñador
+item.spawn_egg.entity.udaw:zombie_igniter.name=Huevo Generador de Zombie Incendiario
+item.spawn_egg.entity.udaw:plzombie.name=Huevo Generador de Zombie Guerrero
 
 
 
