@@ -3,6 +3,7 @@ item.udaw.flintlockgun.description=This weapon uses iron nuggets as ammunition.
 item.udaw.arcabuz=Arquebus
 item.udaw.oil_bottle=Oil Bottle
 item.spawn_egg.entity.udaw:cannon.name=Cannon
+item.udaw:cannon_spawn_egg=Cannon
 
 entity.udaw:zombiecomun.name=Zombie Common
 entity.udaw:evocatorzombie.name=Zombie Evoker

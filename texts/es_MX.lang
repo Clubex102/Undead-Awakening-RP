@@ -2,8 +2,8 @@ item.udaw.flintlockgun=Pistola de chispa
 item.udaw.flintlockgun.description=Esta arma utiliza pepitas de hierro como munición.
 item.udaw.arcabuz=arcabuz
 item.udaw.oil_bottle=Botella de aceite
-item.udaw.oil_bottle.name=Botella de aceite
-item.spawn_egg.entity.udaw:cannon.name=Cañon
+item.spawn_egg.entity.udaw:cannon.name=Cañón
+item.udaw:cannon_spawn_egg=Cañón
 
 entity.udaw:zombiecomun.name=Zombie Común
 entity.udaw:evocatorzombie.name=Zombie Evocador
@@ -20,8 +20,8 @@ entity.udaw:zombie_igniter.name=Zombie Incendiario
 entity.udaw:plzombie.name=Zombie Guerrero
 entity.udaw:spawner.name=Generador
 entity.udaw:spawner2.name=Generador2
-entity.udawoil_bottle_v1.name=Botella de aceite
-entity.udawoil_bottle_v2.name=Botella de aceite
+entity.udaw:oil_bottle_v1.name=Botella de aceite
+entity.udaw:oil_bottle_v2.name=Botella de aceite
 entity.udaw:cannon.name=Cañon
 entity.udaw:cannonbullet.name=Bala de cañon
 
