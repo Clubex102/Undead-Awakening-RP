@@ -17,6 +17,9 @@
         "spawn_egg_zombie_pillager": {
             "textures": "textures/items/pillagerzombiespawnegg"
         },
+        "raid_bottle": {
+            "textures": "textures/items/raid_bottle"
+        },
         "arcabuz":{
             "textures": "textures/items/arcabuz"
         },
