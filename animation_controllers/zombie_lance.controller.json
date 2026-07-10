@@ -2,15 +2,15 @@
     "format_version": "1.10.0",
     "animation_controllers": {
         "controller.animation.zombie_lance": {
-            "initial_state": "default",
+            "initial_state": "idle",
             "states": {
-                "default": {
+                "idle": {
                     "animations": [
                         "idle"
                     ],
                     "transitions": [
-                        { "walk":   "query.modified_move_speed > 0.1" },
-                        { "attack": "variable.attack > 0" }
+                        { "attack": "variable.attack_time > 0" },
+                        { "walk":   "query.modified_move_speed > 0.1" }
                     ],
                     "blend_via_shortest_path": true
                 },
@@ -19,8 +19,8 @@
                         "walk"
                     ],
                     "transitions": [
-                        { "default": "query.modified_move_speed <= 0.1" },
-                        { "attack":  "variable.attack > 0" }
+                        { "attack": "variable.attack_time > 0" },
+                        { "idle":  "query.modified_move_speed <= 0.1" }
                     ],
                     "blend_via_shortest_path": true
                 },
@@ -29,7 +29,12 @@
                         "atack"
                     ],
                     "transitions": [
-                        { "default": "variable.attack <= 0" }
+                        {
+                            "walk": "query.modified_move_speed > 0.1 && query.all_animations_finished"
+                        },
+                        {
+                            "idle": "query.modified_move_speed <= 0.1 && query.all_animations_finished"
+                        }
                     ],
                     "blend_via_shortest_path": false
                 }
