@@ -7,6 +7,9 @@
 				"root_item": {
 					"rotation": [77.5, 0, 0],
 					"position": [0, 15, -7]
+				},
+				"rightitem": {
+					"rotation": [90, 0, 0]
 				}
 			}
 		},
@@ -80,6 +83,30 @@
 					"rotation": [105.22726, 60.19879, -34.61436],
 					"position": [-10, 20, -11]
 				}
+			}
+		},
+		"animation.gun.arm_hold": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": ["!variable.is_first_person * (-60 + q.target_x_rotation * 0)", 0, "!variable.is_first_person * -5"],
+					"position": [0, 0, "!variable.is_first_person * -1"]
+				}
+			}
+		},
+		"animation.gun.arm_reload": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": ["!variable.is_first_person * (-30 + q.target_x_rotation * 0)", "!variable.is_first_person * -15", "!variable.is_first_person * -15"],
+					"position": [0, 0, "!variable.is_first_person * -2"]
+				}
+			}
+		},
+		"animation.gun.arm_clear": {
+			"animation_length": 0.001,
+			"bones": {
+				"rightArm": { "rotation": [0, 0, 0], "position": [0, 0, 0] }
 			}
 		},
 		"animation.gun.firstperson_shot": {

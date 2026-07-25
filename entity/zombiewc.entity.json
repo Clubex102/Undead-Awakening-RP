@@ -26,23 +26,14 @@
         "attack_controller": "controller.animation.zombie_wc"
       },
       "scripts": {
-        "animate": [
-          {
-            "walk": "query.is_moving && !query.is_delayed_attacking"
-          },
-          {
-            "idle": "!query.is_moving"
-          },
-          {
-            "climb": "query.is_wall_climbing"
-          },
-          {
-            "attack": "variable.attack_time > 0 && !query.all_animations_finished"
-          },
-          "attack_controller"
-        ],
         "pre_animation": [
           "variable.attack = math.sin(variable.attack_time*30.0);"
+        ],
+        "animate": [
+          {"walk": "query.is_moving"},
+          {"idle": "!query.is_moving"},
+          {"climb": "query.is_wall_climbing"},
+          "attack_controller"
         ]
       }
     }

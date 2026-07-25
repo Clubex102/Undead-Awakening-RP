@@ -26,24 +26,15 @@
         "attack_controller": "controller.animation.zombie_miner"
       },
       "scripts": {
-        "animate": [
-          {
-            "walk": "query.is_moving && !variable.attack_time < 20"
-          },
-          {
-            "idle": "!query.is_moving"
-          },
-          {
-            "climb": "query.is_wall_climbing"
-          },
-          {
-            "attack": "variable.attack_time > 0"
-          },
-          "attack_controller"
-        ],
         "pre_animation": [
             "variable.attack = math.sin(variable.attack_time*30.0);"
-          ]
+        ],
+        "animate": [
+          {"walk": "query.is_moving"},
+          {"idle": "!query.is_moving"},
+          {"climb": "query.is_wall_climbing"},
+          "attack_controller"
+        ]
       }
     }
   }

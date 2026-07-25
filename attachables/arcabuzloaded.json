@@ -23,8 +23,7 @@
                 "tpp": "animation.udaw.arquebus.thirdperson",
                 "fpp_shot": "animation.udaw.arquebus.firstpersonshoot",
                 "fpp_hold": "animation.udaw.arquebus.firstperson",
-                "controller": "controller.animation.gun",
-                "hold_tpp": "animation.player.crossbow_hold"
+                "controller": "controller.animation.arcabuz"
             },
             "scripts": {
                 "animate": [
@@ -33,10 +32,7 @@
                     }, 
                     {
                         "controller": "c.is_first_person"
-                    },
-                   {
-                        "hold_tpp": "!c.is_first_person"
-                   }
+                    }
                 ]
             }
         }

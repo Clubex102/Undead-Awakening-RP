@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "udaw:copper_sable",
+            "item": {
+                "udaw:copper_sable": "query.is_owner_identifier_any('minecraft:player')"
+            },
+            "materials": {
+                "default": "entity_alphablend"
+            },
+            "textures": {
+                "default": "textures/items/texture_coppersable"
+            },
+            "geometry": {
+                "default": "geometry.sable"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "animations": {
+                "tpp": "animation.sable.tpp",
+                "fpp": "animation.sable.fpp",
+                "fpp_use": "animation.sable.fpp_use",
+                "controller": "controller.animation.diamond_sable"
+            },
+            "scripts": {
+                "animate": [
+                    { "tpp": "!c.is_first_person" },
+                    { "controller": "c.is_first_person" }
+                ]
+            }
+        }
+    }
+}

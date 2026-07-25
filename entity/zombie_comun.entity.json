@@ -25,31 +25,22 @@
         "texture": "spawn_egg_zombie_comun"
       },
       "animations": {
-        "walk":"animation.zombie_comun.walk",
-        "idle":"animation.zombie_comun.idle",
-        "zombie_comun": "controller.animation.zombie_comun",
+        "walk": "animation.zombie_comun.walk",
+        "idle": "animation.zombie_comun.idle",
         "climb": "animation.zombie_comun.climb",
-        "atack": "controller.animation.zombie_comun_atack",
-        "animation.zombie_comun.atack": "animation.zombie_comun.atack"
+        "attack": "animation.zombie_comun.atack",
+        "attack_controller": "controller.animation.zombie_comun_atack"
       },
       "scripts": {
-        "animate": [
-          {
-            "zombie_comun": "query.is_moving"
-          },
-          {
-            "idle": "!query.is_moving"
-          },
-          {
-            "climb": "query.is_wall_climbing"
-          },
-          {
-            "atack": "variable.attack_time > 0"
-          }
-        ],
         "pre_animation": [
             "variable.attack = math.sin(variable.attack_time*30.0);"
-          ]
+        ],
+        "animate": [
+          {"walk": "query.is_moving"},
+          {"idle": "!query.is_moving"},
+          {"climb": "query.is_wall_climbing"},
+          "attack_controller"
+        ]
       }
     }
   }

@@ -1,7 +1,7 @@
 {
     "format_version": "1.10.0",
     "animation_controllers": {
-        "controller.animation.zombie_wc": {
+        "controller.animation.zombie_cuirassier": {
             "initial_state": "default",
             "states": {
                 "default": {
@@ -10,7 +10,9 @@
                     ]
                 },
                 "attack": {
-                    "animations": ["attack"],
+                    "animations": [
+                        "attack1"
+                    ],
                     "transitions": [
                         { "default": "!variable.attack_time" }
                     ]

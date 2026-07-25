@@ -7,11 +7,10 @@
         "default": "entity_alphatest"
       },
        "sound_effects": {
-        "idle": "mob.pillagerzombie.idle",
-        "hurt": "mob.pillagerzombie.hurt",
-        "shieldbonk": "shieldbonk",
-        "death": "mob.pillagerzombie.death"
-        },
+         "ambient": "mob.zombie.ambient",
+         "hurt": "mob.zombie.hurt",
+         "death": "mob.zombie.death"
+         },
       "textures": {
         "default": "textures/entity/zombiecuirassier.png"
       },
@@ -23,24 +22,23 @@
         "controller.render.default"
       ],
       "spawn_egg": {
-        "texture": "spawn_egg_zombie_lance"
+        "texture": "spawn_egg_zombie_cuirassier"
       },
       "animations": {
         "walk": "animation.zombiecui.walk",
-        "idle":"animation.zombiecui.idle"
+        "idle": "animation.zombiecui.idle",
+        "attack1": "animation.zombiecui.attack1",
+        "attack_controller": "controller.animation.zombie_cuirassier"
       },
       "scripts": {
-        "animate": [
-          {
-            "walk": "query.is_moving"
-          },
-          {
-            "idle": "!query.is_moving"
-          }
-        ],
         "pre_animation": [
-            "variable.attack = math.sin(variable.attack_time*30.0);"
-          ]
+          "variable.attack = math.sin(variable.attack_time * 30.0);"
+        ],
+        "animate": [
+          {"walk": "query.is_moving"},
+          {"idle": "!query.is_moving"},
+          "attack_controller"
+        ]
       }
     }
   }

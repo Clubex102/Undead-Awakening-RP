@@ -77,6 +77,46 @@
 				}
 			}
 		},
+		"animation.zombiecui.idle": {
+			"loop": true,
+			"animation_length": 4,
+			"override_previous_animation": true,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [17.5, 0, 0],
+						"4.0": [0, 0, 0]
+					}
+				},
+				"rightArm": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [0, 50, 0],
+						"4.0": [0, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"2.0": [0, -3, 0],
+						"4.0": [0, 0, 0]
+					}
+				},
+				"weapon": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"2.0": [30, 0, 0],
+						"4.0": [0, 0, 0]
+					}
+				},
+				"leftArm": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"2.0": [0, -3, 0],
+						"4.0": [0, 0, 0]
+					}
+				}
+			}
+		},
 		"animation.zombiecui.attack1": {
 			"animation_length": 0.5417,
 			"override_previous_animation": true,
@@ -391,6 +431,11 @@
 						"6.375": [0, 0, 0]
 					}
 				}
+			},
+			"sound_effects": {
+				"0.0417": {
+					"effect": "cuirassier_charge"
+				}
 			}
 		},
 		"animation.zombiecui.floor": {
@@ -556,46 +601,6 @@
 						"1.0": [52.5, 0, 0],
 						"1.6667": [0, 0, 0],
 						"2.375": [0, 0, 0]
-					}
-				}
-			}
-		},
-		"animation.zombiecui.idle": {
-			"loop": true,
-			"animation_length": 4,
-			"override_previous_animation": true,
-			"bones": {
-				"head": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"2.0": [17.5, 0, 0],
-						"4.0": [0, 0, 0]
-					}
-				},
-				"rightArm": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"2.0": [0, 50, 0],
-						"4.0": [0, 0, 0]
-					},
-					"position": {
-						"0.0": [0, 0, 0],
-						"2.0": [0, -3, 0],
-						"4.0": [0, 0, 0]
-					}
-				},
-				"weapon": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"2.0": [30, 0, 0],
-						"4.0": [0, 0, 0]
-					}
-				},
-				"leftArm": {
-					"position": {
-						"0.0": [0, 0, 0],
-						"2.0": [0, -3, 0],
-						"4.0": [0, 0, 0]
 					}
 				}
 			}

@@ -214,6 +214,12 @@
                     }
                 }
             },
+            "cuirassier_charge": {
+                "category": "hostile",
+                "sounds": [
+                    "sounds/mob/zombie/cuirassier_charge"
+                ]
+            },
             "shieldbonk": {
                 "category": "hostile",
                 "max_distance": null,
@@ -290,6 +296,30 @@
                         "sound": "mob.zombie.ambient",
                         "pitch": 1.0,
                         "volume": 1.0
+                    }
+                }
+            },
+            "udaw:zombie_cuirassier": {
+                "events": {
+                    "ambient": {
+                        "sound": "mob.zombie.ambient",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "hurt": {
+                        "sound": "mob.zombie.hurt",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "death": {
+                        "sound": "mob.zombie.death",
+                        "pitch": 1.0,
+                        "volume": 1.0
+                    },
+                    "step": {
+                        "sound": "mob.zombie.step",
+                        "volume": 0.15,
+                        "pitch": 1.0
                     }
                 }
             }

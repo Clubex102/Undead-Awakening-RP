@@ -6,7 +6,13 @@
 			"bones": {
 				"root_item": {
 					"rotation": [90, -90, 92.5],
-					"position": [0, 19, -3]
+					"position": [0, 20, -3]
+				},
+				"rightitem": {
+					"rotation": [90, 0, 0]
+				},
+				"leftItem": {
+					"rotation": [90, -45, 0]
 				}
 			}
 		},
@@ -96,6 +102,7 @@
 					},
 					"scale": {
 						"0.0": [1, 1, 1],
+						"2.4583": [0.5, 0.8, 0.9],
 						"9.2083": [1, 1, 1],
 						"9.375": [0, 1, 0.4]
 					}
@@ -113,6 +120,45 @@
 				"root_item": {
 					"rotation": [151.0245, -96.89202, 50.93629],
 					"position": [-8, 23, -6]
+				}
+			}
+		},
+		"animation.udaw.arquebus.arm_hold": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": ["!variable.is_first_person * (-90 + q.target_x_rotation * 0)", "!variable.is_first_person * 45", 0],
+					"position": ["!variable.is_first_person * -1", 0, "!variable.is_first_person * -1.5"]
+				},
+				"rightArm": {
+					"rotation": ["!variable.is_first_person * (-75 + q.target_x_rotation * 0)", 0, 0],
+					"position": [0, 0, "!variable.is_first_person * -1"]
+				}
+			}
+		},
+		"animation.udaw.arquebus.arm_reload": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": ["!variable.is_first_person * (-90 + q.target_x_rotation * 0)", "!variable.is_first_person * 45", 0],
+					"position": ["!variable.is_first_person * -1", 0, "!variable.is_first_person * -1.5"]
+				},
+				"rightArm": {
+					"rotation": ["!variable.is_first_person * (-45 + q.target_x_rotation * 0)", "!variable.is_first_person * -20", "!variable.is_first_person * 10"],
+					"position": [0, 0, "!variable.is_first_person * -2"]
+				}
+			}
+		},
+		"animation.udaw.arquebus.arm_clear": {
+			"animation_length": 0.001,
+			"bones": {
+				"leftArm": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"rightArm": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
 				}
 			}
 		},

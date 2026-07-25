@@ -17,6 +17,9 @@
         "spawn_egg_zombie_pillager": {
             "textures": "textures/items/pillagerzombiespawnegg"
         },
+        "diamondsable_icon" : {
+            "textures": "textures/items/diamondsable_icon"
+        },
         "raid_bottle": {
             "textures": "textures/items/raid_bottle"
         },
@@ -46,6 +49,21 @@
         },
         "oilbottle": {
             "textures": "textures/items/oil_bottle"
+        },
+        "spawn_egg_zombie_cuirassier": {
+            "textures": "textures/items/egg_zombiecuirassier"
+        },
+        "spawn_egg_zombie_warrior": {
+            "textures": "textures/items/egg_zombiewarrior"
+        },
+        "diamond_sable": {
+            "textures": "textures/items/texture_diamondsable"
+        },
+        "coppersable_icon": {
+            "textures": "textures/items/coppersable_icon"
+        },
+        "ironsable_icon": {
+            "textures": "textures/items/ironsable_icon"
         }
     }
 }

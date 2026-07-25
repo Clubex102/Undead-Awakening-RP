@@ -37,6 +37,44 @@
                 "sounds/mob/zombie/hurt4"
             ]
         },
+        "mob.cuirassier.hurt":{
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/zombie/hurt1",
+                "sounds/mob/zombie/hurt2"
+            ]
+        },
+        "mob.cuirassier.death":{
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/zombie/death",
+                "sounds/mob/zombie/death1",
+                "sounds/mob/zombie/death2",
+                "sounds/mob/zombie/death3"
+            ]
+        },
+        "mob.cuirassier.idle":{
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/zombie/say4",
+                "sounds/mob/zombie/say5",
+                "sounds/mob/zombie/say6"
+            ]
+        },
+        "cuirassier_charge":{
+            "category": "hostile",
+            "__use_legacy_max_distance": "true",
+            "subtitle": "cuirassier charge",
+            "sounds": [
+                "sounds/mob/zombie/cuirassier_charge"
+            ]
+        },
+        "horde":{
+            "sounds": [
+                "sounds/horde_sound"
+            ]
+        },
+        
         "shieldbonk":{
             "category": "hostile",
             "max_distance": null,

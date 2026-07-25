@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.diamond_sable": {
+            "states": {
+                "default": {
+                    "animations": ["fpp"],
+                    "transitions": [
+                        {
+                            "use": "q.is_using_item"
+                        }
+                    ]
+                },
+                "use": {
+                    "animations": ["fpp_use"],
+                    "transitions": [
+                        {
+                            "default": "!q.is_using_item"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

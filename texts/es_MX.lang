@@ -18,8 +18,12 @@ entity.udaw:zombierange.name=Zombie con flechas
 entity.udaw:zombiewc.name=Zombie Leñador
 entity.udaw:zombie_igniter.name=Zombie Incendiario
 entity.udaw:plzombie.name=Zombie Guerrero
+entity.udaw:zombie_cuirassier.name=Zombie Acorazado
 entity.udaw:spawner.name=Generador
 entity.udaw:spawner2.name=Generador2
+item.udaw:diamond_sable=Sable de Diamante
+item.udaw:copper_sable=Sable de Cobre
+item.udaw:iron_sable=Sable de Hierro
 entity.udaw:oil_bottle_v1.name=Botella de aceite
 entity.udaw:oil_bottle_v2.name=Botella de aceite
 entity.udaw:cannon.name=Cañon
@@ -39,6 +43,7 @@ item.spawn_egg.entity.udaw:zombierange.name=Huevo Generador de Zombie con Flecha
 item.spawn_egg.entity.udaw:zombiewc.name=Huevo Generador de Zombie Leñador
 item.spawn_egg.entity.udaw:zombie_igniter.name=Huevo Generador de Zombie Incendiario
 item.spawn_egg.entity.udaw:plzombie.name=Huevo Generador de Zombie Guerrero
+item.spawn_egg.entity.udaw:zombie_cuirassier.name=Huevo Generador de Zombie Acorazado
 
 
 
