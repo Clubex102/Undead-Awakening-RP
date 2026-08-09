@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "udaw:heavy_diamond_chestplate",
+            "materials": {
+                "default": "entity_alphablend",
+                "enchanted": "armor_enchanted"
+            },
+            "textures": {
+                "default": "textures/items/texture_diamondchestplate",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.chestplate"
+            },
+            "scripts": {
+                "parent_setup": "variable.chest_layer_visible = 0.0;"
+            },
+            "render_controllers": ["controller.render.armor"]
+        }
+    }
+}

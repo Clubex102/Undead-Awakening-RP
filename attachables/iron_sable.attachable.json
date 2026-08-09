@@ -7,7 +7,7 @@
                 "udaw:iron_sable": "query.is_owner_identifier_any('minecraft:player')"
             },
             "materials": {
-                "default": "entity_alphablend"
+                "default": "entity_alphatest"
             },
             "textures": {
                 "default": "textures/items/texture_ironsable"

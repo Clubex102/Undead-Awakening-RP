@@ -1,0 +1,22 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.pillager_cannon": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": [ "idle" ],
+                    "transitions": [
+                        { "move": "query.modified_move_speed > 0.01" }
+                    ]
+                },
+                "move": {
+                    "animations": [ "move" ],
+                    "transitions": [
+                        { "idle": "query.modified_move_speed <= 0.01" }
+                    ]
+                }
+            }
+        }
+    }
+}

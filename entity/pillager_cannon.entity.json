@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "udaw:pillager_cannon",
+      "materials": {
+        "default": "pillager"
+      },
+      "textures": {
+        "default": "textures/entity/texturepillager_cannon"
+      },
+      "geometry": {
+        "default": "geometry.pillager_cannon"
+      },
+      "sound_effects": {
+        "idle": "mob.pillager.idle",
+        "hurt": "mob.pillager.hurt",
+        "death": "mob.pillager.death"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg_pillager"
+      },
+      "animations": {
+        "idle": "animation.pillager_cannon.idle",
+        "move": "animation.pillager_cannon.move",
+        "shoot": "animation.pillager_cannon.shoot",
+        "reload": "animation.pillager_cannon.reload",
+        "all": "animation.pillager_cannon.all",
+        "controller_pillager_cannon": "controller.animation.pillager_cannon"
+      },
+      "scripts": {
+        "animate": [
+          "controller_pillager_cannon"
+        ]
+      },
+      "render_controllers": [
+        "controller.render.pillager"
+      ]
+    }
+  }
+}

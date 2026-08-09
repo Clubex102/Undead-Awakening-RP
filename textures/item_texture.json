@@ -64,6 +64,30 @@
         },
         "ironsable_icon": {
             "textures": "textures/items/ironsable_icon"
+        },
+        "ironheavychestplate_icon": {
+            "textures": "textures/items/ironheavychestplate_icon"
+        },
+        "copperheavychestplate_icon": {
+            "textures": "textures/items/copperheavychestplate_icon"
+        },
+        "diamondheavychestplate_icon": {
+            "textures": "textures/items/diamondheavychestplate_icon"
+        },
+        "diamondheavyhelmet_icon": {
+            "textures": "textures/items/diamondheavyhelmet_icon"
+        },
+        "ironheavyhelmet_icon": {
+            "textures": "textures/items/ironheavyhelmet_icon"
+        },
+        "copperheavyhelmet_icon": {
+            "textures": "textures/items/copperheavyhelmet_icon"
+        },
+        "plate_fragment": {
+            "textures": "textures/items/plate_fragment"
+        },
+        "heavy_plate": {
+            "textures": "textures/items/heavy_plate"
         }
     }
 }
