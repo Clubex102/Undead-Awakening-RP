@@ -4,7 +4,7 @@
         "description": {
             "identifier": "udaw:arcabuz_loaded",
             "item": {
-                "udaw:arcabuz": "query.is_owner_identifier_any('minecraft:player')"
+                "udaw:arcabuz_loaded": "query.is_owner_identifier_any('minecraft:player')"
             },
             "materials": {
                 "default": "entity_alphablend"
@@ -23,7 +23,8 @@
                 "tpp": "animation.udaw.arquebus.thirdperson",
                 "fpp_shot": "animation.udaw.arquebus.firstpersonshoot",
                 "fpp_hold": "animation.udaw.arquebus.firstperson",
-                "controller": "controller.animation.arcabuz"
+                "controller": "controller.animation.arcabuz",
+                "fpp_aim": "animation.udaw.arquebus.fpp_aim"
             },
             "scripts": {
                 "animate": [

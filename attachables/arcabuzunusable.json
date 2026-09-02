@@ -23,7 +23,8 @@
                 "tpp": "animation.udaw.arquebus.thirdperson",
                 "fpp_hold": "animation.udaw.arquebus.firstpersonempty",
                 "fpp_reload": "animation.udaw.arquebus.firstpersonempty",
-                "controller": "controller.animation.arcabuzunusable"
+                "controller": "controller.animation.arcabuzunusable",
+                "fpp_aim": "animation.udaw.arquebus.fpp_aim"
             },
             "scripts": {
                 "animate": [

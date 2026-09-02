@@ -76,6 +76,19 @@
 				}
 			}
 		},
+		"animation.gun.fpp_aim": {
+			"loop": true,
+			"animation_length": 1.2917,
+			"bones": {
+				"root_item": {
+					"rotation": [76.9291, 61.3266, -49.8318],
+					"position": {
+						"0.0": [-10, 24, -17],
+						"1.25": [-10, 24, -17]
+					}
+				}
+			}
+		},
 		"animation.gun.firstperson2": {
 			"loop": true,
 			"bones": {
@@ -106,7 +119,10 @@
 		"animation.gun.arm_clear": {
 			"animation_length": 0.001,
 			"bones": {
-				"rightArm": { "rotation": [0, 0, 0], "position": [0, 0, 0] }
+				"rightArm": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				}
 			}
 		},
 		"animation.gun.firstperson_shot": {

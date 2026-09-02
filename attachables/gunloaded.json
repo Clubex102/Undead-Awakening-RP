@@ -4,7 +4,7 @@
         "description": {
             "identifier": "udaw:flintlockgun_loaded",
             "item": {
-                "udaw:flintlockgun": "query.is_owner_identifier_any('minecraft:player')"
+                "udaw:flintlockgun_loaded": "query.is_owner_identifier_any('minecraft:player')"
             },
             "materials": {
                 "default": "entity_alphablend"
@@ -24,7 +24,8 @@
                 "fpp_shot": "animation.gun.firstperson_shot",
                 "fpp_hold": "animation.gun.firstperson2",
                 "controller": "controller.animation.gunloaded",
-                "hold_tpp": "animation.player.crossbow_hold"
+                "hold_tpp": "animation.player.crossbow_hold",
+                "fpp_aim": "animation.gun.fpp_aim"
             },
             "scripts": {
                 "animate": [

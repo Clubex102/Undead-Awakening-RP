@@ -82,6 +82,10 @@ item.udaw.plate_fragment.name=Plate Fragment
 item.udaw.heavy_plate=Heavy Plate
 item.udaw:heavy_plate=Heavy Plate
 item.udaw.heavy_plate.name=Heavy Plate
+item.udaw.hand_cannon=Hand Cannon
+item.udaw:hand_cannon=Hand Cannon
+item.udaw.hand_cannon.description=Ammo: nuggets and oil bottles
+item.udaw.hand_cannon.description_oil=Oil mode
 item.udaw.cannon.name=Cannon
 
 ####

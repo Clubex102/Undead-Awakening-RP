@@ -24,7 +24,8 @@
                 "fpp_shot": "animation.gun.firstpersonempty",
                 "fpp_hold": "animation.gun.firstpersonempty",
                 "controller": "controller.animation.gun",
-                "hold_tpp": "animation.player.crossbow_hold"
+                "hold_tpp": "animation.player.crossbow_hold",
+                "fpp_aim": "animation.gun.fpp_aim"
             },
             "scripts": {
                 "animate": [

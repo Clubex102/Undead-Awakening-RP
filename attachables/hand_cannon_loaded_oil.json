@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "udaw:hand_cannon_loaded_oil",
+            "item": {
+                "udaw:hand_cannon_loaded_oil": "query.is_owner_identifier_any('minecraft:player')"
+            },
+            "materials": {
+                "default": "entity_alphablend"
+            },
+            "textures": {
+                "default": "textures/items/texturehand_cannon"
+            },
+            "geometry": {
+                "default": "geometry.hand_cannon"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "animations": {
+                "tpp": "animation.hand_cannon.third_person",
+                "fpp_hold": "animation.hand_cannon.firstperson_hold",
+                "fpp_shot": "animation.hand_cannon.firstperson_hold",
+                "controller": "controller.animation.hand_cannon_loaded"
+            },
+            "scripts": {
+                "animate": [
+                    { "tpp": "!c.is_first_person" },
+                    { "controller": "c.is_first_person" }
+                ]
+            }
+        }
+    }
+}

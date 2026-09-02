@@ -1,0 +1,38 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "udaw:hand_cannon",
+            "item": {
+                "udaw:hand_cannon": "query.is_owner_identifier_any('minecraft:player')"
+            },
+            "materials": {
+                "default": "entity_alphablend"
+            },
+            "sound_effects": {
+                "reload": "reload1"
+            },
+            "textures": {
+                "default": "textures/items/texturehand_cannon"
+            },
+            "geometry": {
+                "default": "geometry.hand_cannon"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "animations": {
+                "tpp": "animation.hand_cannon.third_person",
+                "fpp_hold": "animation.hand_cannon.first_person_empty",
+                "fpp_reload": "animation.hand_cannon.first_person_reload1",
+                "controller": "controller.animation.hand_cannon_default"
+            },
+            "scripts": {
+                "animate": [
+                    { "tpp": "!c.is_first_person" },
+                    { "controller": "c.is_first_person" }
+                ]
+            }
+        }
+    }
+}

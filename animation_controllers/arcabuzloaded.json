@@ -8,6 +8,9 @@
                     "transitions": [
                         {
                             "use": "q.is_using_item"
+                        },
+                        {
+                            "aim": "q.is_sneaking"
                         }
                     ]
                 },
@@ -16,8 +19,22 @@
                     "transitions": [
 						{
                             "default": "!q.is_using_item"
+                        },
+                        {
+                            "aim": "q.is_sneaking"
                         }
 					]
+                },
+                "aim": {
+                    "animations": ["fpp_aim"],
+                    "transitions": [
+                        {
+                            "use": "q.is_using_item"
+                        },
+                        {
+                            "default": "!q.is_sneaking"
+                        }
+                    ]
                 }
             }
         } 

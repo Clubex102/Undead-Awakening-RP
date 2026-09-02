@@ -88,6 +88,9 @@
         },
         "heavy_plate": {
             "textures": "textures/items/heavy_plate"
+        },
+        "hand_cannon": {
+            "textures": "textures/items/hand_cannoniconitem"
         }
     }
 }

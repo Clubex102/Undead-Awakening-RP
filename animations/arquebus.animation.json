@@ -114,6 +114,16 @@
 				}
 			}
 		},
+		"animation.udaw.arquebus.fpp_aim": {
+			"loop": true,
+			"animation_length": 1,
+			"bones": {
+				"root_item": {
+					"rotation": [151.669, -80.15512, 50.33109],
+					"position": [-7, 26, -12]
+				}
+			}
+		},
 		"animation.udaw.arquebus.firstperson": {
 			"loop": "hold_on_last_frame",
 			"bones": {

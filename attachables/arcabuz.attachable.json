@@ -26,7 +26,8 @@
                 "tpp": "animation.udaw.arquebus.thirdperson",
                 "fpp_reload": "animation.udaw.arquebus.firstpersonreload",
                 "fpp_hold": "animation.udaw.arquebus.firstpersonempty",
-                "controller": "controller.animation.arcabuzdefault"
+                "controller": "controller.animation.arcabuzdefault",
+                "fpp_aim": "animation.udaw.arquebus.fpp_aim"
             },
             "scripts": {
                 "animate": [

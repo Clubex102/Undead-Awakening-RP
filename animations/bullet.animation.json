@@ -2,18 +2,229 @@
 	"format_version": "1.8.0",
 	"animations": {
 		"animation.bullet.move": {
-			
 			"loop": true,
 			"particle_effects": {
 				"0.0": {
 					"effect": "udaw:basic_flame_particle",
 					"pre_effect_script": "(1.0)",
 					"bind_to_actor": false,
-					
 					"locator": "locator"
 				}
 			}
-			
+		},
+		"animation.bullet.shoot_handcannon": {
+			"animation_length": 5,
+			"particle_effects": {
+				"0.0": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.0417": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.0833": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.125": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.1667": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.2083": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.25": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.2917": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.3333": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.375": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.4583": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.5": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.5417": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.5833": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				},
+				"0.625": {
+					"effect": "basic_flame",
+					"locator": "locator"
+				}
+			}
+		},
+		"animation.bullet.normal": {
+			"animation_length": 10.0417,
+			"particle_effects": {
+				"0.0": {
+					"effect": "gun_smoke"
+				},
+				"0.0417": {
+					"effect": "gun_smoke"
+				},
+				"0.0833": {
+					"effect": "gun_smoke"
+				},
+				"0.125": {
+					"effect": "gun_smoke"
+				},
+				"0.1667": {
+					"effect": "gun_smoke"
+				},
+				"0.2083": {
+					"effect": "gun_smoke"
+				},
+				"0.2917": {
+					"effect": "gun_smoke"
+				},
+				"0.3333": {
+					"effect": "gun_smoke"
+				},
+				"0.375": {
+					"effect": "gun_smoke"
+				},
+				"0.4167": {
+					"effect": "gun_smoke"
+				},
+				"0.4583": {
+					"effect": "gun_smoke"
+				},
+				"0.5": {
+					"effect": "gun_smoke"
+				},
+				"0.7917": {
+					"effect": "gun_smoke"
+				},
+				"0.8333": {
+					"effect": "gun_smoke"
+				},
+				"0.875": {
+					"effect": "gun_smoke"
+				},
+				"0.9167": {
+					"effect": "gun_smoke"
+				},
+				"0.9583": {
+					"effect": "gun_smoke"
+				},
+				"1.0": {
+					"effect": "gun_smoke"
+				},
+				"2.25": {
+					"effect": "gun_smoke"
+				},
+				"2.2917": {
+					"effect": "gun_smoke"
+				},
+				"2.3333": {
+					"effect": "gun_smoke"
+				},
+				"2.375": {
+					"effect": "gun_smoke"
+				},
+				"2.4167": {
+					"effect": "gun_smoke"
+				},
+				"2.4583": {
+					"effect": "gun_smoke"
+				},
+				"2.9583": {
+					"effect": "gun_smoke"
+				},
+				"3.0": {
+					"effect": "gun_smoke"
+				},
+				"3.0417": {
+					"effect": "gun_smoke"
+				},
+				"3.0833": {
+					"effect": "gun_smoke"
+				},
+				"3.125": {
+					"effect": "gun_smoke"
+				},
+				"3.1667": {
+					"effect": "gun_smoke"
+				},
+				"4.4583": {
+					"effect": "gun_smoke"
+				},
+				"4.5": {
+					"effect": "gun_smoke"
+				},
+				"4.5417": {
+					"effect": "gun_smoke"
+				},
+				"4.5833": {
+					"effect": "gun_smoke"
+				},
+				"4.625": {
+					"effect": "gun_smoke"
+				},
+				"4.6667": {
+					"effect": "gun_smoke"
+				},
+				"4.8333": {
+					"effect": "gun_smoke"
+				},
+				"4.875": {
+					"effect": "gun_smoke"
+				},
+				"4.9167": {
+					"effect": "gun_smoke"
+				},
+				"4.9583": {
+					"effect": "gun_smoke"
+				},
+				"5.0": {
+					"effect": "gun_smoke"
+				},
+				"5.0417": {
+					"effect": "gun_smoke"
+				},
+				"5.1667": {
+					"effect": "gun_smoke"
+				},
+				"5.2083": {
+					"effect": "gun_smoke"
+				},
+				"5.25": {
+					"effect": "gun_smoke"
+				},
+				"5.2917": {
+					"effect": "gun_smoke"
+				},
+				"5.3333": {
+					"effect": "gun_smoke"
+				},
+				"5.375": {
+					"effect": "gun_smoke"
+				}
+			}
 		}
 	}
 }
