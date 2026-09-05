@@ -1,0 +1,58 @@
+﻿{
+  "namespace": "hud",
+  "infection_image": {
+    "type": "image",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": ["112%", "112%"],
+    "keep_ratio": false,
+    "fill": true,
+    "layer": 100,
+    "$infection_state": "$actionbar_text",
+    "$infection_texture|default": "infection/transparent",
+    "$infection_match|default": "INF_OFF",
+    "texture": "$infection_texture",
+    "visible": "($infection_state = $infection_match)"
+  },
+  "infection_overlay": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": ["100%", "100%"],
+    "layer": 100,
+    "controls": [
+      { "inf_1@hud.infection_image": { "$infection_texture": "textures/ui/infection_1", "$infection_match": "INF_1" } },
+      { "inf_2@hud.infection_image": { "$infection_texture": "textures/ui/infection_2", "$infection_match": "INF_2" } },
+      { "inf_3@hud.infection_image": { "$infection_texture": "textures/ui/infection_3", "$infection_match": "INF_3" } },
+      { "inf_4@hud.infection_image": { "$infection_texture": "textures/ui/infection_4", "$infection_match": "INF_4" } },
+      { "inf_5@hud.infection_image": { "$infection_texture": "textures/ui/infection_5", "$infection_match": "INF_5" } }
+    ]
+  },
+  "infection_overlay_factory": {
+    "type": "panel",
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "size": ["100%", "100%"],
+    "factory": {
+      "name": "hud_actionbar_text_factory",
+      "control_ids": {
+        "hud_actionbar_text": "infection_overlay@hud.infection_overlay"
+      }
+    }
+  },
+  "hud_actionbar_text": {
+    "$infection_actionbar": "$actionbar_text",
+    "visible": "(not (($infection_actionbar = 'INF_1') or ($infection_actionbar = 'INF_2') or ($infection_actionbar = 'INF_3') or ($infection_actionbar = 'INF_4') or ($infection_actionbar = 'INF_5') or ($infection_actionbar = 'INF_OFF')))"
+  },
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": {
+          "infection_overlay_factory@hud.infection_overlay_factory": {}
+        }
+      }
+    ]
+  }
+}

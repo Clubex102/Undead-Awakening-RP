@@ -1,0 +1,22 @@
+﻿{
+    "format_version":  "1.20.70",
+    "minecraft:fog_settings":  {
+                                   "description":  {
+                                                       "identifier":  "udaw:infection_20"
+                                                   },
+                                   "distance":  {
+                                                    "air":  {
+                                                                "fog_color":  "#808080",
+                                                                "fog_start":  15,
+                                                                "fog_end":  40,
+                                                                "render_distance_type":  "fixed"
+                                                            },
+                                                    "weather":  {
+                                                                    "fog_color":  "#808080",
+                                                                    "fog_start":  15,
+                                                                    "fog_end":  40,
+                                                                    "render_distance_type":  "fixed"
+                                                                }
+                                                }
+                               }
+}
