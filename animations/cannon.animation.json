@@ -37,7 +37,7 @@
 			"animation_length": 0.0417,
 			"bones": {
 				"1": {
-					"rotation": ["-q.body_x_rotation", "-q.body_y_rotation", 0]
+					"rotation": ["query.property('udaw:elev')", 0, 0]
 				},
 				"body": {
 					"rotation": ["q.body_x_rotation", "q.body_y_rotation", 0]
