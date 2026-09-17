@@ -1,6 +1,6 @@
 ﻿{
   "namespace": "hud",
-  "infection_image": {
+  "udaw_inf_image": {
     "type": "image",
     "anchor_from": "center",
     "anchor_to": "center",
@@ -8,40 +8,58 @@
     "keep_ratio": false,
     "fill": true,
     "layer": 100,
-    "$infection_state": "$actionbar_text",
-    "$infection_texture|default": "textures/ui/lvl1",
-    "$infection_match|default": "INFECTION_OFF",
-    "texture": "$infection_texture",
-    "visible": "($infection_state = $infection_match)"
-  },
-  "infection_overlay": {
-    "type": "panel",
-    "anchor_from": "center",
-    "anchor_to": "center",
-    "size": ["100%", "100%"],
-    "layer": 100,
-    "controls": [
-      { "inf_1@hud.infection_image": { "$infection_texture": "textures/ui/lvl1", "$infection_match": "INFECTION_LVL1" } },
-      { "inf_2@hud.infection_image": { "$infection_texture": "textures/ui/lvl2", "$infection_match": "INFECTION_LVL2" } },
-      { "inf_3@hud.infection_image": { "$infection_texture": "textures/ui/lvl3", "$infection_match": "INFECTION_LVL3" } },
-      { "inf_4@hud.infection_image": { "$infection_texture": "textures/ui/lvl4", "$infection_match": "INFECTION_LVL4" } }
+    "$inf_texture|default": "textures/ui/lvl1",
+    "$inf_min|default": 0,
+    "$inf_max|default": 26,
+    "texture": "$inf_texture",
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "((((#hud_title_text_string - 'UDAW_INF_') + 0) > $inf_min) and (((#hud_title_text_string - 'UDAW_INF_') + 0) < $inf_max))",
+        "target_property_name": "#visible"
+      }
     ]
   },
-  "infection_overlay_factory": {
+  "udaw_inf_overlay": {
     "type": "panel",
     "anchor_from": "center",
     "anchor_to": "center",
     "size": ["100%", "100%"],
-    "factory": {
-      "name": "hud_actionbar_text_factory",
-      "control_ids": {
-        "hud_actionbar_text": "infection_overlay@hud.infection_overlay"
-      }
-    }
+    "controls": [
+      { "inf_1@hud.udaw_inf_image": { "$inf_texture": "textures/ui/lvl1", "$inf_min": 0, "$inf_max": 26 } },
+      { "inf_2@hud.udaw_inf_image": { "$inf_texture": "textures/ui/lvl2", "$inf_min": 25, "$inf_max": 51 } },
+      { "inf_3@hud.udaw_inf_image": { "$inf_texture": "textures/ui/lvl3", "$inf_min": 50, "$inf_max": 76 } },
+      { "inf_4@hud.udaw_inf_image": { "$inf_texture": "textures/ui/lvl4", "$inf_min": 75, "$inf_max": 101 } }
+    ]
   },
-  "hud_actionbar_text": {
-    "$infection_actionbar": "$actionbar_text",
-    "visible": "(not (($infection_actionbar = 'INFECTION_LVL1') or ($infection_actionbar = 'INFECTION_LVL2') or ($infection_actionbar = 'INFECTION_LVL3') or ($infection_actionbar = 'INFECTION_LVL4') or ($infection_actionbar = 'INFECTION_OFF')))"
+  "hud_title_text": {
+    "bindings": [
+      {
+        "binding_type": "global",
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(((#hud_title_text_string - 'UDAW_INF_') = #hud_title_text_string))",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "hud_subtitle_text": {
+    "bindings": [
+      {
+        "binding_type": "global",
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(((#hud_title_text_string - 'UDAW_INF_') = #hud_title_text_string))",
+        "target_property_name": "#visible"
+      }
+    ]
   },
   "root_panel": {
     "modifications": [
@@ -49,7 +67,7 @@
         "array_name": "controls",
         "operation": "insert_front",
         "value": {
-          "infection_overlay_factory@hud.infection_overlay_factory": {}
+          "udaw_inf_overlay@hud.udaw_inf_overlay": {}
         }
       }
     ]
