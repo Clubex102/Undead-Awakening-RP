@@ -28,7 +28,8 @@
         "walk": "animation.zombiecui.walk",
         "idle": "animation.zombiecui.idle",
         "attack1": "animation.zombiecui.attack1",
-        "attack_controller": "controller.animation.zombie_cuirassier"
+        "attack_controller": "controller.animation.zombie_cuirassier",
+        "look_at_target": "animation.common.look_at_target"
       },
       "scripts": {
         "pre_animation": [
@@ -37,7 +38,8 @@
         "animate": [
           {"walk": "query.is_moving"},
           {"idle": "!query.is_moving"},
-          "attack_controller"
+          "attack_controller",
+          "look_at_target"
         ]
       }
     }

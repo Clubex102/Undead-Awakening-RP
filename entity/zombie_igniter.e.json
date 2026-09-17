@@ -19,11 +19,13 @@
                 "walk": "animation.zombieigniter.walk", 
                 "idle":"animation.zombieigniter.idle",
                 "ac" :"controller.animation.zombie_igniter",
-                "attack": "animation.zombieigniter.attack"
+                "attack": "animation.zombieigniter.attack",
+                "look_at_target": "animation.common.look_at_target"
             },
             "scripts": {
                 "animate": [
-                    "ac"
+                    "ac",
+                    "look_at_target"
                 ] 
             },
             "render_controllers": [

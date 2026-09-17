@@ -27,7 +27,8 @@
       },
       "animations": {
         "walk": "animation.zombieplayer.walk",
-        "idle":"animation.zombieplayer.idle"
+        "idle":"animation.zombieplayer.idle",
+        "look_at_target": "animation.common.look_at_target"
       },
       "scripts": {
         "animate": [
@@ -36,7 +37,8 @@
           },
           {
             "idle": "!query.is_moving"
-          }
+          },
+          "look_at_target"
         ],
         "pre_animation": [
             "variable.attack = math.sin(variable.attack_time*30.0);"

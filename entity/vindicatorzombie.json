@@ -29,7 +29,8 @@
         "idle":"animation.vindicatorzombie.idle",
         "vindicatorzombieac": "controller.animation.vindicatorzombie",
         "attack": "controller.animation.vindicatorzombie",
-        "animation.vindicatorzombie.attack": "animation.vindicatorzombie.attack"
+        "animation.vindicatorzombie.attack": "animation.vindicatorzombie.attack",
+        "look_at_target": "animation.common.look_at_target"
       },
       "scripts": {
         "animate": [
@@ -41,7 +42,8 @@
           },
           {
             "attack": "variable.attack_time > 0"
-          }
+          },
+          "look_at_target"
         ],
         "pre_animation": [
             "variable.attack = math.sin(variable.attack_time*30.0);"

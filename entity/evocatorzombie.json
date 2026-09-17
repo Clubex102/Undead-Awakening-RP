@@ -26,13 +26,15 @@
       "animations": {
         "walk": "animation.evokerzombie.walk",
         "idle": "animation.evokerzombie.idle",
-        "evocatorzombie": "controller.animation.evocatorzombie"
+          "evocatorzombie": "controller.animation.evocatorzombie",
+          "look_at_target": "animation.common.look_at_target"
       },
       "scripts": {
         "animate": [
           {
             "evocatorzombie": "true"
-          }
+          },
+          "look_at_target"
         ],
         "pre_animation": [
             "variable.attack = math.sin(variable.attack_time*30.0);"

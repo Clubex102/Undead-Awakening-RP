@@ -160,6 +160,11 @@ item.spawn_egg.entity.udaw:zombie_igniter.name=Huevo Generador de Zombie Incendi
 item.spawn_egg.entity.udaw:plzombie.name=Huevo Generador de Zombie Guerrero
 item.spawn_egg.entity.udaw:zombie_cuirassier.name=Huevo Generador de Zombie Acorazado
 
+udaw:udaw_sables=Sables
+udaw:udaw_heavy_armor=Armaduras pesadas
+udaw:udaw_gunpowder=Armas de polvora
+udaw:udaw_special=Objetos especiales
+
 
 
 

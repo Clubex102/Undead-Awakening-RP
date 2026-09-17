@@ -23,7 +23,8 @@
         "idle":"animation.zombieminer.idle",
         "climb": "animation.zombieminer.climb",
         "attack": "animation.zombieminer.atack",
-        "attack_controller": "controller.animation.zombie_miner"
+        "attack_controller": "controller.animation.zombie_miner",
+        "look_at_target": "animation.common.look_at_target"
       },
       "scripts": {
         "pre_animation": [
@@ -33,7 +34,8 @@
           {"walk": "query.is_moving"},
           {"idle": "!query.is_moving"},
           {"climb": "query.is_wall_climbing"},
-          "attack_controller"
+          "attack_controller",
+          "look_at_target"
         ]
       }
     }

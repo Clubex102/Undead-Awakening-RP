@@ -156,3 +156,8 @@ udaw.direction.norte=NORTH
 udaw.direction.sur=SOUTH
 udaw.direction.este=EAST
 udaw.direction.oeste=WEST
+
+udaw:udaw_sables=Sabers
+udaw:udaw_heavy_armor=Heavy Armor
+udaw:udaw_gunpowder=Gunpowder Weapons
+udaw:udaw_special=Special Items

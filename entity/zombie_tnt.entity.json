@@ -22,11 +22,13 @@
 				"walk": "animation.zombietnt.walk",
 				"idle": "animation.zombietnt.idle",
 				"explode": "animation.zombietnt.explode",
-				"controller": "controller.animation.zombie.tnt"
+				"controller": "controller.animation.zombie.tnt",
+				"look_at_target": "animation.common.look_at_target"
 			},
 			"scripts": {
 				"animate": [
-					"controller"
+					"controller",
+					"look_at_target"
 				]
 			}
 		}

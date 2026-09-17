@@ -19,11 +19,13 @@
                 "walk": "animation.zombierange.walk", 
                 "idle":"animation.zombierange.idle",
                 "ac" :"controller.animation.zombie_range",
-                "attack": "animation.zombierange.attack"
+                "attack": "animation.zombierange.attack",
+                "look_at_target": "animation.common.look_at_target"
             },
             "scripts": {
                 "animate": [
-                    "ac"
+                    "ac",
+                    "look_at_target"
                 ] 
             },
             "render_controllers": [
