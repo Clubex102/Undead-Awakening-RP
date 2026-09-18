@@ -24,9 +24,7 @@
 			},
 			"scripts": {
 				"animate": [
-					{
-						"rotation": "query.has_player_rider"
-					},
+					"rotation",
 					{
 						"move": "query.is_moving"
 					}
