@@ -24,7 +24,7 @@
 			},
 			"scripts": {
 				"animate": [
-					"rotation",
+					{"rotation": "query.property('udaw:aim_on')"},
 					{
 						"move": "query.is_moving"
 					}

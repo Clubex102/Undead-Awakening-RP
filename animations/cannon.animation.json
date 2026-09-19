@@ -1,8 +1,41 @@
 {
-	"format_version": "1.8.0",
+	"format_version": "1.10.0",
 	"animations": {
+		"animation.cannon.rotation": {
+			"animation_length": 0.0417,
+			"bones": {
+				"1": {
+					"rotation": ["query.rider_head_x_rotation(0)", "query.rider_head_y_rotation(0) - query.body_y_rotation", 0]
+				}
+			}
+		},
+		"animation.cannon.move": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"body": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.6": [0, 0, 5],
+						"1.5": [0, 0, 0]
+					}
+				},
+				"w1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.5": [360, 0, 0]
+					}
+				},
+				"w2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.5": [360, 0, 0]
+					}
+				}
+			}
+		},
 		"animation.cannon.shoot": {
-			"animation_length": 1,
+			"animation_length": 1.0417,
 			"bones": {
 				"1": {
 					"position": {
@@ -31,39 +64,36 @@
 						"1.0": [0, 0, 0]
 					}
 				}
-			}
-		},
-		"animation.cannon.rotation": {
-			"animation_length": 0.0417,
-			"bones": {
-				"1": {
-					"rotation": ["query.property('udaw:elev')", 0, 0]
-				},
-				"body": {
-					"rotation": ["q.body_x_rotation", "q.body_y_rotation", 0]
-				}
-			}
-		},
-		"animation.cannon.move": {
-			"loop": true,
-			"animation_length": 1.5,
-			"bones": {
-				"body": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"0.6": [0, 0, 5],
-						"1.5": [0, 0, 0]
-					}
-				},
-				"w1": {
-					"rotation": {
-						"0.0": [0, 0, 0],
-						"1.5": [360, 0, 0]
-					}
-				},
-				"w2": {
-					"rotation": [0, 0, 0]
-				}
+			},
+			"particle_effects": {
+				"0.4167": [{
+					"effect": "udaw:fire",
+					"locator": "locator"
+				}],
+				"0.4583": [{
+					"effect": "udaw:gun_smoke",
+					"locator": "locator"
+				}],
+				"0.5": [{
+					"effect": "udaw:gun_smoke",
+					"locator": "locator"
+				}],
+				"0.5417": [{
+					"effect": "udaw:gun_smoke",
+					"locator": "locator"
+				}],
+				"0.5833": [{
+					"effect": "udaw:gun_smoke",
+					"locator": "locator"
+				}],
+				"0.625": [{
+					"effect": "udaw:gun_smoke",
+					"locator": "locator"
+				}],
+				"0.6667": [{
+					"effect": "udaw:gun_smoke",
+					"locator": "locator"
+				}]
 			}
 		}
 	}
