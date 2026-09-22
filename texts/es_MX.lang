@@ -165,6 +165,9 @@ udaw:udaw_heavy_armor=Armaduras pesadas
 udaw:udaw_gunpowder=Armas de polvora
 udaw:udaw_special=Objetos especiales
 
+entity.udaw:zombie_boarder.name=Zombie Abordador
+item.spawn_egg.entity.udaw:zombie_boarder.name=Huevo Generador de Abordador
+
 
 
 

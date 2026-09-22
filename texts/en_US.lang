@@ -161,3 +161,6 @@ udaw:udaw_sables=Sabers
 udaw:udaw_heavy_armor=Heavy Armor
 udaw:udaw_gunpowder=Gunpowder Weapons
 udaw:udaw_special=Special Items
+
+entity.udaw:zombie_boarder.name=Zombie Boarder
+item.spawn_egg.entity.udaw:zombie_boarder.name=Boarder Spawn Egg
