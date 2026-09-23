@@ -59,6 +59,9 @@
         "spawn_egg_zombie_boarder": {
             "textures": "textures/items/egg_zombiewarrior"
         },
+        "spawn_egg_zombie_fisher": {
+            "textures": "textures/items/egg_zombiefisher"
+        },
         "diamond_sable": {
             "textures": "textures/items/texture_diamondsable"
         },

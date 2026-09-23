@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "udaw:fish_hook",
+            "materials": {
+                "default": "entity_alphablend"
+            },
+            "textures": {
+                "default": "textures/particle/udaw_grapple_hook"
+            },
+            "geometry": {
+                "default": "geometry.bullet"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}
