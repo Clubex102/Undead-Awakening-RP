@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "udaw:big_ship_wreck",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/texture_bigship"
+            },
+            "geometry": {
+                "default": "geometry.ship"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "animations": {
+                "sink": "animation.ship.sink"
+            },
+            "scripts": {
+                "animate": [
+                    "sink"
+                ]
+            }
+        }
+    }
+}

@@ -322,6 +322,20 @@
                         "pitch": 1.0
                     }
                 }
+            },
+            "udaw:headless_rider": {
+                "events": {
+                    "laugh1": {
+                        "sound": "udaw.headless_rider.laugh1",
+                        "volume": 1.0,
+                        "pitch": 1.0
+                    },
+                    "laugh2": {
+                        "sound": "udaw.headless_rider.laugh2",
+                        "volume": 1.0,
+                        "pitch": 1.0
+                    }
+                }
             }
         }
     }

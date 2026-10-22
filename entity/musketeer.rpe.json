@@ -16,9 +16,25 @@
         "controller.render.default"
       ],
       "spawn_egg": {
-        "texture": "musketeer_spawn_egg"
+        "texture": "spawn_egg_musketeer"
+      },
+      "animations": {
+        "idle": "animation.musketeer.idle",
+        "walk": "animation.musketeer.walk",
+        "aim": "animation.musketeer.aim",
+        "shot": "animation.musketeer.shot",
+        "reload": "animation.musketeer.reload",
+        "controller": "controller.animation.musketeer",
+        "look_at_target": "animation.common.look_at_target"
       },
       "scripts": {
+        "pre_animation": [
+          "variable.attack = math.sin(variable.attack_time * 30.0);"
+        ],
+        "animate": [
+          "controller",
+          "look_at_target"
+        ]
       }
     }
   }

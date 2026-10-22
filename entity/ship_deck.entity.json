@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "udaw:ship_deck",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/texture_bigship"
+            },
+            "geometry": {
+                "default": "geometry.ship_deck"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

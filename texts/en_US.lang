@@ -7,6 +7,10 @@ item.udaw.raid_bottle=Raid Bottle
 item.udaw:raid_bottle=Raid Bottle
 item.spawn_egg.entity.udaw:cannon.name=Cannon
 item.udaw:cannon_spawn_egg=Cannon
+entity.udaw:big_ship.name=Big Ship
+entity.udaw:big_ship_wreck.name=Big Ship Wreck
+item.spawn_egg.entity.udaw:big_ship.name=Big Ship Spawn Egg
+item.udaw:big_ship_spawn_egg=Big Ship Spawn Egg
 
 entity.udaw:zombiecomun.name=Zombie Common
 entity.udaw:evocatorzombie.name=Zombie Evoker
@@ -164,3 +168,12 @@ udaw:udaw_special=Special Items
 
 entity.udaw:zombie_boarder.name=Zombie Boarder
 item.spawn_egg.entity.udaw:zombie_boarder.name=Boarder Spawn Egg
+
+entity.udaw:musketeer.name=Musketeer
+entity.udaw:pikeman.name=Pikeman
+entity.udaw:swordman.name=Swordman
+item.spawn_egg.entity.udaw:musketeer.name=Musketeer Spawn Egg
+item.spawn_egg.entity.udaw:pikeman.name=Pikeman Spawn Egg
+item.spawn_egg.entity.udaw:swordman.name=Swordman Spawn Egg
+entity.udaw:headless_rider.name=Headless Horseman
+item.spawn_egg.entity.udaw:headless_rider.name=Headless Horseman Spawn Egg

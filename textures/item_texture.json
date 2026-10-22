@@ -14,6 +14,9 @@
         "spawn_egg_cannon": {
             "textures": "textures/items/textureitemcannon"
         },
+        "spawn_egg_big_ship": {
+            "textures": "textures/items/big_ship_spawn_egg"
+        },
         "spawn_egg_zombie_pillager": {
             "textures": "textures/items/pillagerzombiespawnegg"
         },
@@ -61,6 +64,15 @@
         },
         "spawn_egg_zombie_fisher": {
             "textures": "textures/items/egg_zombiefisher"
+        },
+        "spawn_egg_musketeer": {
+            "textures": "textures/items/musketeer_spawn_egg"
+        },
+        "spawn_egg_pikeman": {
+            "textures": "textures/items/pikeman_spawn_egg"
+        },
+        "spawn_egg_swordman": {
+            "textures": "textures/items/swordman_spawn_egg"
         },
         "diamond_sable": {
             "textures": "textures/items/texture_diamondsable"

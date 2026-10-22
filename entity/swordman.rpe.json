@@ -16,9 +16,24 @@
         "controller.render.default"
       ],
       "spawn_egg": {
-        "texture": "musketeer_spawn_egg"
+        "texture": "spawn_egg_swordman"
+      },
+      "animations": {
+        "idle": "animation.swordman.idle",
+        "walk": "animation.swordman.walk",
+        "attack": "animation.swordman.attack",
+        "block": "animation.swordman.block",
+        "controller": "controller.animation.swordman",
+        "look_at_target": "animation.common.look_at_target"
       },
       "scripts": {
+        "pre_animation": [
+          "variable.attack = math.sin(variable.attack_time * 30.0);"
+        ],
+        "animate": [
+          "controller",
+          "look_at_target"
+        ]
       }
     }
   }

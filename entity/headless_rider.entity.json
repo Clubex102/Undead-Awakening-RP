@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "udaw:headless_rider",
+      "materials": { "default": "entity_alphatest" },
+      "textures": { "default": "textures/entity/headless_rider" },
+      "geometry": { "default": "geometry.udaw_headless_rider" },
+      "animations": {
+        "walk": "animation.udaw_headless_rider.walk",
+        "idle": "animation.udaw_headless_rider.idle",
+        "ride": "animation.udaw_headless_rider.ride",
+        "slash": "animation.udaw_headless_rider.slash",
+        "chargue": "animation.udaw_headless_rider.chargue",
+        "pumpkin": "animation.udaw_headless_rider.pumpkin",
+        "jump": "animation.udaw_headless_rider.jump",
+        "stomp": "animation.udaw_headless_rider.stomp",
+        "chain": "animation.udaw_headless_rider.chain",
+        "spin": "animation.udaw_headless_rider.spin",
+        "gallop": "animation.udaw_headless_rider.gallop",
+        "curse": "animation.udaw_headless_rider.curse",
+        "sky": "animation.udaw_headless_rider.sky",
+        "vanish": "animation.udaw_headless_rider.vanish",
+        "appear": "animation.udaw_headless_rider.appear",
+        "stunned": "animation.udaw_headless_rider.stunned",
+        "summon": "animation.udaw_headless_rider.summon",
+        "roar": "animation.udaw_headless_rider.roar",
+        "recover": "animation.udaw_headless_rider.recover"
+      },
+      "spawn_egg": { "base_color": "#d86a10", "overlay_color": "#1a1020" },
+      "render_controllers": ["controller.render.udaw_headless_rider"],
+      "scripts": { "animate": ["ride"] }
+    }
+  }
+}

@@ -3,6 +3,10 @@ item.udaw.flintlockgun.description=Esta arma utiliza pepitas de hierro como muni
 item.udaw.arcabuz=arcabuz
 item.spawn_egg.entity.udaw:cannon.name=Cañón
 item.udaw:cannon_spawn_egg=Cañón
+entity.udaw:big_ship.name=Gran Barco
+entity.udaw:big_ship_wreck.name=Restos del Gran Barco
+item.spawn_egg.entity.udaw:big_ship.name=Huevo Generador de Gran Barco
+item.udaw:big_ship_spawn_egg=Huevo Generador de Gran Barco
 item.udaw.oil_bottle=Botella de aceite
 item.udaw:oil_bottle=Botella de aceite
 item.udaw.raid_bottle=Botella de raid
@@ -168,6 +172,14 @@ udaw:udaw_special=Objetos especiales
 entity.udaw:zombie_boarder.name=Zombie Abordador
 item.spawn_egg.entity.udaw:zombie_boarder.name=Huevo Generador de Abordador
 
+entity.udaw:musketeer.name=Mosquetero
+entity.udaw:pikeman.name=Piquero
+entity.udaw:swordman.name=Espadachín
+item.spawn_egg.entity.udaw:musketeer.name=Huevo Generador de Mosquetero
+item.spawn_egg.entity.udaw:pikeman.name=Huevo Generador de Piquero
+item.spawn_egg.entity.udaw:swordman.name=Huevo Generador de Espadachín
+entity.udaw:headless_rider.name=Jinete sin Cabeza
+item.spawn_egg.entity.udaw:headless_rider.name=Huevo de Jinete sin Cabeza
 
 
 

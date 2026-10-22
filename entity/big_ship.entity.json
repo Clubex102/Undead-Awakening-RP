@@ -1,0 +1,43 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "udaw:big_ship",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/texture_bigship"
+            },
+            "geometry": {
+                "default": "geometry.ship"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "spawn_egg": {
+                "texture": "spawn_egg_big_ship"
+            },
+            "animations": {
+                "idle": "animation.ship.idle",
+                "move": "animation.ship.move",
+                "shoot_rh": "animation.ship.shoot_rh",
+                "shoot_lf": "animation.ship.shoot_lf",
+                "sink": "animation.ship.sink"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "sink": "query.property('udaw:sinking')"
+                    },
+                    {
+                        "move": "query.property('udaw:moving') && !query.property('udaw:sinking')"
+                    },
+                    {
+                        "idle": "!query.property('udaw:moving') && !query.property('udaw:sinking')"
+                    }
+                ]
+            }
+        }
+    }
+}

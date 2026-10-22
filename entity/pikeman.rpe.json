@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "udaw:pikeman",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/pikeman.png"
+      },
+      "geometry": {
+        "default": "geometry.pikeman"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "texture": "spawn_egg_pikeman"
+      },
+      "animations": {
+        "idle": "animation.pikeman.idle",
+        "walk": "animation.pikeman.walk",
+        "attack": "animation.pikeman.attack",
+        "controller": "controller.animation.pikeman",
+        "look_at_target": "animation.common.look_at_target"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.attack = math.sin(variable.attack_time * 30.0);"
+        ],
+        "animate": [
+          "controller",
+          "look_at_target"
+        ]
+      }
+    }
+  }
+}

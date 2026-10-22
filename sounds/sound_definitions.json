@@ -188,7 +188,28 @@
             "category" : "hostile",
             "max_distance" : 100,
             "sounds" : ["sounds/items/flintlockshoot"]
-            }
+            },
+        "udaw.headless_rider.laugh1": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/Evil_laugh"
+            ]
+        },
+        "udaw.headless_rider.laugh2": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/evil_laugh2"
+            ]
+        },
+        "udaw.ghosts_n_heroes": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/ghosts_n_heroes_2025_loop",
+                    "stream": true
+                }
+            ]
+        }
          }
     }
 
