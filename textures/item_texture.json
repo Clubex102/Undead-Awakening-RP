@@ -109,6 +109,9 @@
         },
         "hand_cannon": {
             "textures": "textures/items/hand_cannoniconitem"
+        },
+        "battle_horn": {
+            "textures": "textures/items/battle_horn"
         }
     }
 }

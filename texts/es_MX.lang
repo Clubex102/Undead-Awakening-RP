@@ -13,6 +13,10 @@ item.udaw:big_ship_spawn_egg=Huevo Generador de Gran Barco
 item.udaw.oil_bottle=Botella de aceite
 item.udaw:oil_bottle=Botella de aceite
 item.udaw.raid_bottle=Botella de raid
+item.udaw.battle_horn=Cuerno de guerra
+udaw.battle_horn.arriving=§6Los refuerzos llegarán en 10 segundos.
+udaw.battle_horn.departed=§7Los refuerzos se retiran. ¡Hasta la próxima!
+udaw.battle_horn.partial=§eAlgunos refuerzos no pudieron llegar.
 item.udaw:raid_bottle=Botella de raid
 
 entity.udaw:zombiecomun.name=Zombie Común
@@ -184,6 +188,18 @@ item.spawn_egg.entity.udaw:swordman.name=Huevo Generador de Espadachín
 entity.udaw:headless_rider.name=Jinete sin Cabeza
 item.spawn_egg.entity.udaw:headless_rider.name=Huevo de Jinete sin Cabeza
 
+entity.udaw:bullet.name=Bala
+entity.udaw:bullet2.name=Bala II
+entity.udaw:bullet3.name=Bala III
+entity.udaw:musket_ball.name=Bala de mosquete
+entity.udaw:pillagerbullet.name=Bala de saqueador
+entity.udaw:pillagercannonbullet.name=Bala de cañón saqueadora
+entity.udaw:fish_hook.name=Anzuelo
+entity.udaw:fish_link.name=Línea de pesca
+entity.udaw:grapple_hook.name=Garfio
+entity.udaw:ship_deck.name=Cubierta del barco
+entity.udaw:zombie_fisher.name=Zombie Pescador
+item.spawn_egg.entity.udaw:zombie_fisher.name=Huevo Generador de Zombie Pescador
 
 
 

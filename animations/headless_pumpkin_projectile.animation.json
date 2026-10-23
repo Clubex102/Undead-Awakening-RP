@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.udaw_headless_pumpkin_projectile.spin": {
+      "loop": true,
+      "animation_length": 0.5,
+      "bones": {
+        "bb_main": {
+          "rotation": {
+            "0.0": [0, 0, 0],
+            "0.5": [360, 0, 0]
+          }
+        }
+      }
+    }
+  }
+}
