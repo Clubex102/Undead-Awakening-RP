@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "udaw:big_ship_destroyed",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/texture_bigship_destroyed"
+            },
+            "geometry": {
+                "default": "geometry.ship"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "animations": {
+                "idle": "animation.ship.idle"
+            },
+            "scripts": {
+                "animate": [
+                    "idle"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "udaw:big_ship_hostile",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/texture_bigship"
+            },
+            "geometry": {
+                "default": "geometry.ship"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "animations": {
+                "idle": "animation.ship.idle",
+                "move": "animation.ship.move",
+                "shoot_rh": "animation.ship.shoot_rh",
+                "shoot_lf": "animation.ship.shoot_lf"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "move": "query.property('udaw:moving')"
+                    },
+                    {
+                        "idle": "!query.property('udaw:moving')"
+                    }
+                ]
+            }
+        }
+    }
+}

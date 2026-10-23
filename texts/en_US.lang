@@ -9,6 +9,9 @@ item.spawn_egg.entity.udaw:cannon.name=Cannon
 item.udaw:cannon_spawn_egg=Cannon
 entity.udaw:big_ship.name=Big Ship
 entity.udaw:big_ship_wreck.name=Big Ship Wreck
+entity.udaw:big_ship_hostile.name=Pillager Warship
+entity.udaw:big_ship_destroyed.name=Destroyed Big Ship
+action.interact.repair=Repair Big Ship
 item.spawn_egg.entity.udaw:big_ship.name=Big Ship Spawn Egg
 item.udaw:big_ship_spawn_egg=Big Ship Spawn Egg
 
