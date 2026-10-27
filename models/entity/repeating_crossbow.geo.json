@@ -1,0 +1,31 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.repeating_crossbow",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root_item",
+					"pivot": [0, 11, 6],
+					"rotation": [0, 180, 0],
+					"binding": "q.item_slot_to_bone_name(c.item_slot)",
+					"cubes": [
+						{"origin": [-1.5, 9.5, 1], "size": [3, 2, 19], "uv": [0, 0]},
+						{"origin": [-1.5, 11.5, 10], "size": [3, 3, 8], "uv": [0, 23]},
+						{"origin": [-10, 10, 17], "size": [10, 1, 2], "pivot": [-5, 0, 3], "rotation": [0, 40, 0], "uv": [22, 33]},
+						{"origin": [-1, 13.5, 1], "size": [2, 1, 9], "pivot": [0, 6, -10], "rotation": [-5, 0, 0], "uv": [22, 23]},
+						{"origin": [0, 10, 17], "size": [10, 1, 2], "pivot": [5, 0, 3], "rotation": [0, -40, 0], "uv": [0, 36]},
+						{"origin": [-8, 10, 10], "size": [16, 0, 2], "uv": [0, 21]}
+					]
+				}
+			]
+		}
+	]
+}

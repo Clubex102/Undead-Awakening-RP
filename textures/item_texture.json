@@ -17,6 +17,9 @@
         "spawn_egg_big_ship": {
             "textures": "textures/items/big_ship_spawn_egg"
         },
+        "halberd": {
+            "textures": "textures/items/halberd"
+        },
         "spawn_egg_zombie_pillager": {
             "textures": "textures/items/pillagerzombiespawnegg"
         },
@@ -112,6 +115,12 @@
         },
         "battle_horn": {
             "textures": "textures/items/battle_horn"
+        },
+        "repeating_crossbow": {
+            "textures": "textures/items/repeating_crosbow_icon"
+        },
+        "snail_block": {
+            "textures": "textures/items/snail_icon"
         }
     }
 }

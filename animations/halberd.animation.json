@@ -1,0 +1,42 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.udaw.halberd_tpp": {
+			"loop": true,
+			"bones": {
+				"weapon_root": {
+					"rotation": [-24.2894, -1.8559, 0.983],
+					"position": [0, 19, -18]
+				}
+			}
+		},
+		"animation.udaw.halberd_fpp": {
+			"loop": true,
+			"bones": {
+				"weapon_root": {
+					"rotation": [-31.4258, -60.0919, -56.1665],
+					"position": [8, 22, -15]
+				}
+			}
+		},
+		"animation.udaw.halberd_attack": {
+			"animation_length": 0.4,
+			"bones": {
+				"weapon_root": {
+					"rotation": {
+						"0.0": [-31.4258, -60.0919, -56.1665],
+						"0.15": [-65.0, -10.0, -20.0],
+						"0.3": [10.0, 30.0, 10.0],
+						"0.4": [-31.4258, -60.0919, -56.1665]
+					},
+					"position": {
+						"0.0": [8, 22, -15],
+						"0.15": [4, 25, -22],
+						"0.3": [-4, 20, -12],
+						"0.4": [8, 22, -15]
+					}
+				}
+			}
+		}
+	}
+}

@@ -10,10 +10,10 @@
                 "default": "entity_alphatest"
             },
             "textures": {
-                "default": "textures/items/texture_diamondsable"
+                "default": "textures/items/diamondsable_icon"
             },
             "geometry": {
-                "default": "geometry.sable"
+                "default": "geometry.texturemesh"
             },
             "render_controllers": [
                 "controller.render.default"

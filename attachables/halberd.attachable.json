@@ -1,0 +1,36 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "udaw:halberd",
+            "item": {
+                "udaw:halberd": "query.is_owner_identifier_any('minecraft:player')"
+            },
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/items/halberd"
+            },
+            "geometry": {
+                "default": "geometry.texturemesh"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "animations": {
+                "tpp": "animation.udaw.halberd_tpp",
+                "fpp": "animation.udaw.halberd_fpp",
+                "attack": "animation.udaw.halberd_attack",
+                "animation.udaw.halberd_attack": "animation.udaw.halberd_attack",
+                "controller": "controller.animation.halberd"
+            },
+            "scripts": {
+                "animate": [
+                    { "tpp": "!c.is_first_person" },
+                    { "controller": "c.is_first_person" }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.repeating_crossbow.fpp": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [461.2739, -237.1581, 125.8869],
+					"position": [-4, 12, -2]
+				}
+			}
+		},
+		"animation.repeating_crossbow.tpp": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [84.6836, -181.6102, -176.8643],
+					"position": [0, 13, -11]
+				}
+			}
+		},
+		"animation.repeating_crossbow.fpp_reload": {
+			"animation_length": 7,
+			"bones": {
+				"root_item": {
+					"rotation": {
+						"0.0": [461.2739, -237.1581, 125.8869],
+						"5.25": [460.3685, -180.2607, 49.3979],
+						"7.0": [461.2739, -237.1581, 125.8869]
+					},
+					"position": {
+						"0.0": [-4, 12, -2],
+						"5.25": [-4, 16, -7],
+						"7.0": [-4, 12, -2]
+					}
+				}
+			}
+		},
+		"animation.repeating_crossbow.fpp_aim": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [455.8723, -242.4043, 129.115],
+					"position": [-6, 20, -17]
+				}
+			}
+		},
+		"animation.repeating_crossbow.fpp_shot": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.3333,
+			"bones": {
+				"root_item": {
+					"rotation": {
+						"0.0": [461.2739, -237.1581, 125.8869],
+						"0.0833": [488.7739, -237.1581, 125.8869],
+						"0.3333": [461.2739, -237.1581, 125.8869]
+					},
+					"position": {
+						"0.0": [-4, 12, -2],
+						"0.0833": [-9, 17, -2],
+						"0.3333": [-4, 12, -2]
+					}
+				}
+			}
+		}
+	}
+}

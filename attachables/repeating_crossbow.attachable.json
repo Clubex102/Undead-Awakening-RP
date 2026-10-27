@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "udaw:repeating_crossbow",
+            "item": {
+                "udaw:repeating_crossbow": "query.is_owner_identifier_any('minecraft:player')"
+            },
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/items/texture_repeatercrossbow"
+            },
+            "geometry": {
+                "default": "geometry.repeating_crossbow"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "animations": {
+                "tpp": "animation.repeating_crossbow.tpp",
+                "fpp": "animation.repeating_crossbow.fpp",
+                "fpp_reload": "animation.repeating_crossbow.fpp_reload",
+                "controller": "controller.animation.repeating_crossbow_reload"
+            },
+            "scripts": {
+                "animate": [
+                    { "tpp": "!c.is_first_person" },
+                    { "controller": "c.is_first_person" }
+                ]
+            }
+        }
+    }
+}

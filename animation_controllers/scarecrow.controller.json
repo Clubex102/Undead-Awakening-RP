@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.scarecrow": {
+            "initial_state": "idle",
+            "states": {
+                "idle": {
+                    "animations": ["idle"],
+                    "transitions": [
+                        { "punched": "query.property('udaw:state') >= 1" }
+                    ]
+                },
+                "punched": {
+                    "animations": ["punched"],
+                    "transitions": [
+                        { "fallen": "query.property('udaw:state') >= 2" }
+                    ]
+                },
+                "fallen": {
+                    "animations": ["fallen"]
+                }
+            }
+        }
+    }
+}

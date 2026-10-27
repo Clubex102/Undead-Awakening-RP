@@ -167,6 +167,13 @@
                     "sounds/items/reload2"
                 ]
             },
+            "reload3":{
+                "category": "player",
+                "max_distance": null,
+                "sounds": [
+                    "sounds/items/reload3"
+                ]
+            },
             "arquebusshot":{
                 "category": "hostile",
                 "max_distance": 60,

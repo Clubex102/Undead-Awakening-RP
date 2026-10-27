@@ -10,7 +10,7 @@
                 "default": "entity_alphatest"
             },
             "sound_effects": {
-                "reload": "reload1"
+                "reload": "reload3"
             },      
             "textures": {
                 "default": "textures/items/texturearquebus"

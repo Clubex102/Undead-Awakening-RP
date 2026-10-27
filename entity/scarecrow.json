@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "udaw:scarecrow",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/texture_scarycrow"
+			},
+			"geometry": {
+				"default": "geometry.scarycrow"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"animations": {
+				"idle": "animation.scarycrow.idle",
+				"punched": "animation.scarycrow.punched",
+				"fallen": "animation.scarycrow.fallen",
+				"controller": "controller.animation.scarecrow"
+			},
+			"scripts": {
+				"animate": [
+					"controller"
+				]
+			}
+		}
+	}
+}

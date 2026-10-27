@@ -201,6 +201,24 @@ entity.udaw:ship_deck.name=Cubierta del barco
 entity.udaw:zombie_fisher.name=Zombie Pescador
 item.spawn_egg.entity.udaw:zombie_fisher.name=Huevo Generador de Zombie Pescador
 
+udaw.snail.lore.1=Esos illagers tienen algo que ver, los vi jugando con magia negra desde aquí.
+udaw.snail.lore.2=Espero que esta catástrofe no pase al Nether.
+udaw.snail.lore.3=Los Enderman huyeron a su dimensión, los demás mobs se están ocultando, llevo semanas sin ver un creeper.
+udaw.snail.lore.4=Escuché que esos zombis con armadura pesada son parte de la guardia real del rey.
+udaw.snail.lore.5=Mantente alejado de esos campamentos illagers, solo quedan salvajes ahí.
+
+udaw.snail.humor.1=El creador pasó meses tratando de hacer un auto que parecía un caracol... ¿qué es un auto? Ups, línea temporal equivocada, olvídalo.
+udaw.snail.humor.2=Hay un caracol inmortal persiguiendo addon makers por el multiverso, me pregunto quién será.
+udaw.snail.humor.3=También estoy en BeforeCraft jejejeje.
+udaw.snail.humor.4=Ese muchacho Clubex nunca hace nada.
+udaw.snail.humor.5=Solo soy un caracol.
+
+udaw.snail.ref.1=Guts and Blackpowder, hmmm me suena...
+udaw.snail.ref.2=Valor Mortis... buen juego, los zombis pesados se parecen bastante a esos coraceros.
+udaw.snail.ref.3=Pino, ¡ya saca la actualización de Funi Apocalypse!
+udaw.snail.ref.4=Nunca me iré a Java Edition.
+udaw.snail.ref.5=Darkfall nunca saldrá del limbo de desarrollo.
+
 
 
 

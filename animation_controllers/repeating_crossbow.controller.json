@@ -1,0 +1,42 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.repeating_crossbow_reload": {
+            "states": {
+                "default": {
+                    "animations": ["fpp"],
+                    "transitions": [{ "reload": "q.is_using_item" }]
+                },
+                "reload": {
+                    "animations": ["fpp_reload"],
+                    "transitions": [{ "default": "!q.is_using_item" }]
+                }
+            }
+        },
+        "controller.animation.repeating_crossbow_loaded": {
+            "states": {
+                "default": {
+                    "animations": ["fpp"],
+                    "transitions": [
+                        { "use": "q.is_using_item" },
+                        { "aim": "q.is_sneaking" }
+                    ]
+                },
+                "use": {
+                    "animations": ["fpp_shot"],
+                    "transitions": [
+                        { "default": "!q.is_using_item" },
+                        { "aim": "q.is_sneaking" }
+                    ]
+                },
+                "aim": {
+                    "animations": ["fpp_aim"],
+                    "transitions": [
+                        { "use": "q.is_using_item" },
+                        { "default": "!q.is_sneaking" }
+                    ]
+                }
+            }
+        }
+    }
+}

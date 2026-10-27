@@ -166,6 +166,12 @@
                     "sounds/attachables/flintgun/reload1"
                 ]
             },
+            "reload3": {
+                "category": "hostile",
+                "sounds": [
+                    "sounds/items/reload3"
+                ]
+            },
             "udaw:zombie_lance": {
                 "events": {
                     "death": {
